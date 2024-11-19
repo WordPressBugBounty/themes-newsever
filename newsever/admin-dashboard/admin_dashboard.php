@@ -162,8 +162,8 @@ if (!class_exists('AF_themes_info')) {
         'newsever', // Parent slug.
         __('Upgrade', 'newsever'), // Page title.
         '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'newsever') .'</span>', // Menu title.
-        capability: 'manage_options', // Capability.
-        menu_slug: esc_url('https://afthemes.com/products/newsever-pro/') // Menu slug.
+        'manage_options', // Capability.
+        esc_url('https://afthemes.com/products/newsever-pro/') // Menu slug.
         
       );
     }
