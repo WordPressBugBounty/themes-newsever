@@ -375,8 +375,8 @@ add_filter('wp_nav_menu', 'newsever_menu_notitle');
 add_filter('wp_page_menu', 'newsever_menu_notitle');
 add_filter('wp_list_categories', 'newsever_menu_notitle');
 
-add_action( 'after_setup_theme', 'newsever_transltion_init');
+add_action( 'init', 'newsever_transltion_init');
 
 function newsever_transltion_init() {
-    load_theme_textdomain( 'newsever', false, get_template_directory()  . '/languages' );
+    load_theme_textdomain( 'newsever', get_template_directory()  . '/languages' );
 }
