@@ -36,7 +36,7 @@ if (!function_exists('newsever_header_section')) :
                     ?>
                       <span class="aft-home-icon">
                         <?php $home_url = home_url(); ?>
-                        <a href="<?php echo esc_url($home_url); ?>" aria-label="<?php esc_attr_e('Home','')?>">
+                        <a href="<?php echo esc_url($home_url); ?>" aria-label="<?php esc_attr_e('Home', 'newsever') ?>">
                           <i class="<?php echo esc_attr($global_home_menu_icon); ?>" aria-hidden="true"></i>
                         </a>
                       </span>

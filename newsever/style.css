@@ -7,7 +7,7 @@ Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
 Description: Newsever is an ideal WordPress theme for Best Responsive News and Magazine Site. The theme comes with Default, Dark and Light color mode, which enables you to present articles and blog posts with the trending appearance. You can build your website as you want and preview the changes using live customizer options and custom widgets to create a great news website. It is compatible with the Gutenberg WordPress blocks and RTL along with the plugin WooCommerce that lets you incorporate an online shop with our newspaper design. The theme is great for blogging and ideal for a news site, newspaper, magazine, publishing or review site, as it has many useful features that involve creating an amazing looking newsportal. The theme is well designed to rank your website in the top of the search engines and users can receive outstanding support from the team if any problems occur when using the theme. There are number of demos available in this theme so choose the one you like and start to build a website. See our demos: https://afthemes.com/newsever-an-ideal-wordpress-theme-for-best-responsive-news-and-magazine-sites/
-Version: 4.2.0
+Version: 4.2.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: newsever
@@ -19,7 +19,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Newsever is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-Newsever WordPress Theme, Copyright 2020 AF themes
+Newsever WordPress Theme, Copyright 2024 AF themes
 Newsever is distributed under the terms of the GNU GPL v2 or later.
 */
 /*Normalizing styles have been helped along thanks to the fine work of
@@ -508,7 +508,7 @@ html {
 }
 
 body {
-    background-color: #fbfbfb;
+    background-color: #f0f0f0;
 }
 
 hr {
@@ -580,7 +580,7 @@ table {
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: #fbfbfb;
+    background-color: #f0f0f0;
     z-index: 99999999;
     top: 0;
     left: 0;
@@ -5401,7 +5401,7 @@ body.aft-dark-mode #wp-calendar thead th {
     color: #aaa;
 }
 #wp-calendar tbody td {
-    background: #f9f9f9;
+    background: #f0f0f0;
     border: 1px solid;
     border-color: #fff;
     text-align: center;
@@ -6288,7 +6288,7 @@ p.has-drop-cap:not(:focus):first-letter {
 }
 .wp-block-code code,
 .wp-block-code .editor-plain-text {
-  background-color: #f9f9f9;
+  background-color: #f0f0f0;
     padding: 10px;
   color: inherit;
   font-family: inherit;
