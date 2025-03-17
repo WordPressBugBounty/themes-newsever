@@ -256,7 +256,7 @@ function newsever_scripts()
     wp_enqueue_script('sticky-sidebar', get_template_directory_uri() . '/assets/theiaStickySidebar/theia-sticky-sidebar.min.js', array('jquery'), '', true);
 
 
-    wp_enqueue_script('newsever-script', get_template_directory_uri() . '/assets/script.js', array('jquery'), '', 1);
+    wp_enqueue_script('newsever-script', get_template_directory_uri() . '/admin-dashboard/dist/newsever_scripts.build.js', array('jquery'), '', 1);
 
     $enable_sticky_header_option = newsever_get_option('enable_sticky_header_option');
     if ($enable_sticky_header_option == true) {
