@@ -1,29 +1,29 @@
-# Copyright (C) 2022 AF themes
+# Copyright (C) 2025 AF themes
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Newsphere 2.0.3\n"
+"Project-Id-Version: Newsever 4.2.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/newsever\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-07-11T08:28:56+00:00\n"
+"POT-Creation-Date: 2025-03-17T10:13:20+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
-"X-Domain: newsphere\n"
+"X-Domain: newsever\n"
 
 #. Theme Name of the theme
-msgid "Newsphere"
+msgid "Newsever"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://afthemes.com/products/newsphere/"
+msgid "https://afthemes.com/products/newsever/"
 msgstr ""
 
 #. Description of the theme
-msgid "Newsphere is a perfect news and magazine responsive WordPress theme that lets you write articles and blog posts with ease. Create a great news website the help of live customizer options and custom widgets, you can design your website as you like and preview the changes live. It is compatible with the Gutenberg and RTL along with WooCommerce plugin which helps you to integrate an online business with our newspaper template. As it includes many useful features that require to build an awesome looking newsportal, the theme is perfect for blogging and excellent for a news, newspaper, magazine, publishing or review site. The theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are number of demos available in this theme so choose the one you like and start to build a website. See our demos: https://demos.afthemes.com/newsphere/, https://demos.afthemes.com/newsphere/sport/, https://demos.afthemes.com/newsphere-pro/fashion/"
+msgid "Newsever is an ideal WordPress theme for Best Responsive News and Magazine Site. The theme comes with Default, Dark and Light color mode, which enables you to present articles and blog posts with the trending appearance. You can build your website as you want and preview the changes using live customizer options and custom widgets to create a great news website. It is compatible with the Gutenberg WordPress blocks and RTL along with the plugin WooCommerce that lets you incorporate an online shop with our newspaper design. The theme is great for blogging and ideal for a news site, newspaper, magazine, publishing or review site, as it has many useful features that involve creating an amazing looking newsportal. The theme is well designed to rank your website in the top of the search engines and users can receive outstanding support from the team if any problems occur when using the theme. There are number of demos available in this theme so choose the one you like and start to build a website. See our demos: https://afthemes.com/newsever-an-ideal-wordpress-theme-for-best-responsive-news-and-magazine-sites/"
 msgstr ""
 
 #. Author of the theme
@@ -34,1738 +34,1510 @@ msgstr ""
 msgid "https://www.afthemes.com/"
 msgstr ""
 
-#: newsphere/404.php:19
+#: 404.php:19
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: newsphere/404.php:23
+#: 404.php:23
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr ""
 
-#: newsphere/admin-dashboard/admin_dashboard.php:40
-#: newsphere/admin-dashboard/admin_dashboard.php:41
-#: newsphere/lib/info/class.info.php:121
-#: newsphere/lib/info/class.info.php:122
-msgid "%s info"
+#: admin-dashboard/admin_dashboard.php:46
+#: admin-dashboard/admin_dashboard.php:47
+msgid "%s"
 msgstr ""
 
-#: newsphere/admin-dashboard/admin_dashboard.php:111
+#: admin-dashboard/admin_dashboard.php:110
+#: admin-dashboard/admin_dashboard.php:111
+msgid "Starter Sites"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:120
+#: admin-dashboard/admin_dashboard.php:121
+msgid "Block Patterns"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:130
+#: admin-dashboard/admin_dashboard.php:131
+msgid "Elementor Kits"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:141
+#: admin-dashboard/admin_dashboard.php:142
+msgid "Customize"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:152
+#: admin-dashboard/admin_dashboard.php:153
+msgid "Settings"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:163
+#: admin-dashboard/admin_dashboard.php:164
+#: admin-dashboard/src/components/json/dashboard-content.js:26
+msgid "Upgrade"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:213
+msgid "The Templatespare plugin should be updated to the latest version"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:216
+msgid "Import a Starter Site, Personalize, and Live it in 3 Easy Steps!"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:285
+msgid "Blockspare plugin version should be more than %s."
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:290
+msgid "One-click Demo Import, Block Editor Ready, No Code Required! Built with Blockspare."
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:361
+msgid "Elespare plugin version should be more than %s."
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:362
+msgid "One-click Import, Header/Footer Builder, Multilingual Support! Powered by Elespare."
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:436
 msgid "Are you sure you want to install this plugin?"
 msgstr ""
 
-#: newsphere/admin-dashboard/admin_dashboard.php:112
-#: newsphere/admin-dashboard/rest-api/api-request.php:27
+#: admin-dashboard/admin_dashboard.php:437
+#: admin-dashboard/rest-api/api-request.php:29
 msgid "Install Now"
 msgstr ""
 
-#: newsphere/admin-dashboard/admin_dashboard.php:113
-#: newsphere/admin-dashboard/rest-api/api-request.php:71
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2726
+#: admin-dashboard/admin_dashboard.php:438
+#: admin-dashboard/rest-api/api-request.php:74
+#: lib/tgm/class-tgm-plugin-activation.php:2726
 msgid "Activate"
 msgstr ""
 
-#: newsphere/admin-dashboard/admin_dashboard.php:114
-#: newsphere/admin-dashboard/rest-api/api-request.php:67
+#: admin-dashboard/admin_dashboard.php:439
+#: admin-dashboard/rest-api/api-request.php:70
 msgid "Activated"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/api-request.php:98
-msgid "By"
-msgstr ""
-
-#: newsphere/admin-dashboard/rest-api/api-request.php:103
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:82
+#: admin-dashboard/admin_dashboard.php:535
+#: admin-dashboard/rest-api/api-request.php:104
+#: admin-dashboard/rest-api/class-admin-notice.php:144
 msgid "Get Starter Sites"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/api-request.php:117
+#: admin-dashboard/admin_dashboard.php:540
+#: admin-dashboard/rest-api/class-admin-notice.php:148
+#: admin-dashboard/src/components/blockspare.demo.js:13
+#: admin-dashboard/src/components/elespare-demo.js:13
+#: admin-dashboard/src/components/templatespare-demo.js:13
+msgid "Get Started"
+msgstr ""
+
+#: admin-dashboard/admin_dashboard.php:541
+#: admin-dashboard/rest-api/class-admin-notice.php:149
+msgid "The \"Get Started\" action will install/activate the Templatespare and Blockspare plugins for Starter Sites and Templates."
+msgstr ""
+
+#: admin-dashboard/rest-api/api-request.php:99
+msgid "By"
+msgstr ""
+
+#: admin-dashboard/rest-api/api-request.php:126
 msgid "More Details"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:85
-msgid "Activate AF Companion"
-msgstr ""
-
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:89
-msgid "Install AF Companion"
-msgstr ""
-
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:104
+#: admin-dashboard/rest-api/class-admin-notice.php:163
 msgid "Howdy!"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:106
+#: admin-dashboard/rest-api/class-admin-notice.php:165
 msgid "%s is now installed and ready to use. We've assembled some links to get you started."
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:137
-msgid "General info"
+#: admin-dashboard/rest-api/class-admin-notice.php:198
+msgid "Explore Our Pre-Built Starter Websites!"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:138
-msgid "All of the features provided by the theme are now ready to use; Here, we have gathered all of the essential details and helpful links for you and your better experience with the theme. Once again, Thanks for using our theme!"
+#: admin-dashboard/rest-api/class-admin-notice.php:199
+msgid "Let your imagination soar! Designed with User-Friendly features, incorporating the Latest Trends and SEO-Friendly Markups. We genuinely appreciate you choosing our theme!"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:142
+#: admin-dashboard/rest-api/class-admin-notice.php:203
 msgid "Demos/product"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:144
+#: admin-dashboard/rest-api/class-admin-notice.php:205
 msgid "Theme dashboard"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:166
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:4
+#: admin-dashboard/rest-api/class-admin-notice.php:229
+#: admin-dashboard/src/components/json/sidebar-conntent.js:4
 msgid "Documentation"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:167
-#: newsphere/lib/info/info.php:57
-#: newsphere/lib/info/info.php:120
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:7
+#: admin-dashboard/rest-api/class-admin-notice.php:230
+#: admin-dashboard/src/components/json/sidebar-conntent.js:7
 msgid "Please check our full documentation for detailed information on how to setup and customize the theme."
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:168
+#: admin-dashboard/rest-api/class-admin-notice.php:231
 msgid "Docs"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:169
+#: admin-dashboard/rest-api/class-admin-notice.php:232
 msgid "Videos"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:170
+#: admin-dashboard/rest-api/class-admin-notice.php:233
 msgid "Blog"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-admin-notice.php:171
-msgid "Return to your dashboard"
+#: admin-dashboard/rest-api/class-admin-notice.php:234
+#: admin-dashboard/src/components/json/dashboard-content.js:21
+msgid "Rate This Theme"
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-ajaxcall.php:8
+#: admin-dashboard/rest-api/class-ajaxcall.php:10
+#: admin-dashboard/rest-api/class-ajaxcall.php:146
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-ajaxcall.php:15
-#: newsphere/admin-dashboard/rest-api/class-ajaxcall.php:75
+#: admin-dashboard/rest-api/class-ajaxcall.php:18
+#: admin-dashboard/rest-api/class-ajaxcall.php:79
+#: admin-dashboard/rest-api/class-ajaxcall.php:153
 msgid "Error - unable to verify nonce, please try again."
 msgstr ""
 
-#: newsphere/admin-dashboard/rest-api/class-ajaxcall.php:68
+#: admin-dashboard/rest-api/class-ajaxcall.php:72
 msgid "Sorry, you are not allowed to activate plugins on this site."
 msgstr ""
 
 #. translators: 1: title.
-#: newsphere/comments.php:34
+#: comments.php:34
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
-#: newsphere/comments.php:40
+#: comments.php:40
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/comments.php:63
+#: comments.php:63
 msgid "Comments are closed."
 msgstr ""
 
 #. translators: 1: Theme name, 2: Theme author.
-#: newsphere/footer.php:129
+#: footer.php:130
 msgid "%1$s by %2$s."
 msgstr ""
 
-#: newsphere/functions.php:65
-#: newsphere/inc/hooks/hook-header-section.php:45
+#: functions.php:77
+#: inc/hooks/hook-header-section.php:54
 msgid "Primary Menu"
 msgstr ""
 
-#: newsphere/functions.php:66
+#: functions.php:78
 msgid "Social Menu"
 msgstr ""
 
-#: newsphere/functions.php:67
+#: functions.php:79
 msgid "Footer Menu"
 msgstr ""
 
+#: functions.php:80
+msgid "Secondary Menu"
+msgstr ""
+
 #. translators: If there are characters in your language that are not supported by Oswald, translate this to 'off'. Do not translate into your own language.
-#: newsphere/functions.php:134
-msgctxt "Roboto Sans Pro font: on or off"
+#: functions.php:154
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Oswald, translate this to 'off'. Do not translate into your own language.
+#: functions.php:159
+msgctxt "Barlow font: on or off"
 msgid "on"
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
-#: newsphere/functions.php:139
-msgctxt "Rubik font: on or off"
+#: functions.php:164
+msgctxt "Barlow Semi Condensed font: on or off"
 msgid "on"
 msgstr ""
 
-#: newsphere/header.php:44
+#: header.php:42
 msgid "Skip to content"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-control.php:158
+#: inc/customizer/customizer-control.php:158
 msgid "All"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:57
-#: newsphere/inc/customizer/frontpage-options.php:88
+#: inc/customizer/customizer-default.php:54
 msgid "Popular Tags"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:62
+#: inc/customizer/customizer-default.php:59
 msgid "Exclusive"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:76
-#: newsphere/inc/widgets/widget-posts-tabbed.php:136
-msgid "Latest"
+#: inc/customizer/customizer-default.php:60
+msgid "Breaking News"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:77
-#: newsphere/inc/hooks/hook-front-page-banner-tabbed-posts.php:48
-#: newsphere/inc/widgets/widget-posts-tabbed.php:74
-#: newsphere/inc/widgets/widget-posts-tabbed.php:139
-msgid "Popular"
+#: inc/customizer/customizer-default.php:68
+msgid "Main News"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:78
-#: newsphere/inc/widgets/widget-posts-tabbed.php:55
-#: newsphere/inc/widgets/widget-posts-tabbed.php:146
+#: inc/customizer/customizer-default.php:98
+#: inc/widgets/widget-posts-tabbed.php:55
+#: inc/widgets/widget-posts-tabbed.php:200
 msgid "Trending"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:89
-msgid "Editor's Picks"
-msgstr ""
-
-#: newsphere/inc/customizer/customizer-default.php:92
-msgid "Trending Story"
-msgstr ""
-
-#: newsphere/inc/customizer/customizer-default.php:97
+#: inc/customizer/customizer-default.php:103
 msgid "Featured Story"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:103
-msgid "Editor's Pick"
+#: inc/customizer/customizer-default.php:106
+msgid "Editorials"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:119
+#: inc/customizer/customizer-default.php:121
 msgid "Read more"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:139
+#: inc/customizer/customizer-default.php:140
 msgid "More Stories"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:148
+#: inc/customizer/customizer-default.php:150
 msgid "You may have missed"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer-default.php:153
+#: inc/customizer/customizer-default.php:155
 msgid "Copyright &copy; All rights reserved."
 msgstr ""
 
-#: newsphere/inc/customizer/customizer.php:89
+#: inc/customizer/customizer-default.php:180
+msgid "Watch Online"
+msgstr ""
+
+#: inc/customizer/customizer.php:89
 msgid "Site Title Size"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer.php:96
+#: inc/customizer/customizer.php:96
 msgid "Site Title/Tagline Color"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer.php:111
+#: inc/customizer/customizer.php:111
 msgid "Disable Image Tint/Overlay"
 msgstr ""
 
-#: newsphere/inc/customizer/customizer.php:132
-msgid "Newsphere Pro"
-msgstr ""
-
-#: newsphere/inc/customizer/customizer.php:133
-msgid "Upgrade now"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:23
-msgid "Global Color Section "
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:44
+#: inc/customizer/customizer.php:130
 msgid "Background Color will not be applicable for this mode."
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:64
+#: inc/customizer/customizer.php:149
 msgid "Site Color Mode"
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:68
-#: newsphere/inc/customizer/theme-options.php:143
+#: inc/customizer/customizer.php:153
+#: inc/customizer/theme-options.php:183
+#: inc/widgets/widget-author-info.php:162
+#: inc/widgets/widget-posts-double-category.php:335
+#: inc/widgets/widget-posts-express-list.php:192
+#: inc/widgets/widget-posts-grid.php:154
+#: inc/widgets/widget-posts-list.php:151
+#: inc/widgets/widget-posts-single-column.php:141
+#: inc/widgets/widget-posts-slider.php:148
+#: inc/widgets/widget-posts-tabbed.php:179
+#: inc/widgets/widget-social-contacts.php:108
 msgid "Default"
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:69
-msgid "Light"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:70
+#: inc/customizer/customizer.php:154
 msgid "Dark"
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:91
-msgid "Primary Color"
+#: inc/customizer/customizer.php:155
+msgid "Light"
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:115
-msgid "Secondary Color"
+#: inc/customizer/customizer.php:176
+msgid "Newsever Pro"
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:137
-msgid "Single Title Color"
+#: inc/customizer/customizer.php:177
+msgid "Upgrade now"
 msgstr ""
 
-#: newsphere/inc/customizer/font-color-options.php:161
-msgid "General Link Color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:184
-msgid "Box color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:207
-msgid "Post Format Icon"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:229
-msgid "Top Header Section "
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:257
-#: newsphere/inc/customizer/font-color-options.php:455
-#: newsphere/inc/customizer/font-color-options.php:627
-msgid "Background color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:286
-#: newsphere/inc/customizer/font-color-options.php:511
-msgid "Texts color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:314
-msgid "Main Navigation Section "
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:336
-msgid "Background Color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:359
-msgid "Menu Item Color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:383
-msgid "Badge Background"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:406
-msgid "Badge Color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:428
-msgid "Main Banner Section "
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:483
-msgid "Foreground color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:538
-msgid "Archive/Widget Section "
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:561
-msgid "Post Title"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:584
-msgid "Post Title Over Image"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:605
-msgid "Mailchimp Section "
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:650
-msgid "Title color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:667
-msgid "Category Colors"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:690
-msgid "Category %d Background Color"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:705
-msgid "Fonts & Typography"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:725
-msgid "Primary Font"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:743
-msgid "Secondary Font"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:761
-msgid "Global Letter Spacing"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:778
-msgid "Global Line height"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:796
-msgid "Main Banner Slider Caption Size"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:815
-msgid "Global Section Title Size"
-msgstr ""
-
-#: newsphere/inc/customizer/font-color-options.php:834
-msgid "Page/Posts Title Size"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:21
+#: inc/customizer/frontpage-options.php:21
 msgid "Frontpage Options"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:31
-#: newsphere/admin-dashboard/src/components/json/home-content.js:12
+#: inc/customizer/frontpage-options.php:31
+#: admin-dashboard/src/components/json/home-content.js:12
 msgid "Banner Advertisement"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:52
+#: inc/customizer/frontpage-options.php:52
 msgid "Banner Section Advertisement"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:53
-#: newsphere/inc/customizer/frontpage-options.php:258
+#: inc/customizer/frontpage-options.php:53
 msgid "Recommended Size %1$s px X %2$s px"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:74
+#: inc/customizer/frontpage-options.php:74
 msgid "URL Link"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:105
-msgid "Enable Popular Tags Section"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:124
-msgid "Section Title"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:139
+#: inc/customizer/frontpage-options.php:87
 msgid "Exclusive Posts"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:156
+#: inc/customizer/frontpage-options.php:104
 msgid "Enable Exclusive Posts Section"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:175
-msgid "Exclusive Story Title"
+#: inc/customizer/frontpage-options.php:123
+msgid "Exclusive News Title"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:196
+#: inc/customizer/frontpage-options.php:143
+msgid "Exclusive News Subtitle"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:164
 msgid "Exclusive Posts Category"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:197
+#: inc/customizer/frontpage-options.php:165
 msgid "Posts to be shown on trending posts "
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:215
+#: inc/customizer/frontpage-options.php:181
 msgid "Main Banner Section"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:234
+#: inc/customizer/frontpage-options.php:199
 msgid "Enable Main Banner Section"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:257
-msgid "Background image"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:281
-msgid "Transparent Main Banner Boxes"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:302
-msgid "Vertical Slider Section "
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:322
-#: newsphere/inc/customizer/frontpage-options.php:364
-#: newsphere/inc/customizer/frontpage-options.php:462
-msgid "Category"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:323
-msgid "Posts to be shown on vertical slider section"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:345
+#: inc/customizer/frontpage-options.php:220
 msgid "Main Slider Section "
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:365
-msgid "Posts to be shown on main slider section"
+#: inc/customizer/frontpage-options.php:242
+#: inc/customizer/frontpage-options.php:304
+#: inc/customizer/frontpage-options.php:370
+msgid "Section Title"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:387
-msgid "Tabbed Section "
+#: inc/customizer/frontpage-options.php:261
+#: inc/customizer/frontpage-options.php:323
+#: inc/customizer/frontpage-options.php:420
+msgid "Category"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:405
-msgid "Latest Tab Title"
+#: inc/customizer/frontpage-options.php:262
+msgid "Posts to be shown on Main News Slider"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:423
-msgid "Popular Tab Title"
+#: inc/customizer/frontpage-options.php:285
+msgid "Editorials Section "
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:442
-msgid "Trending Tab Title"
+#: inc/customizer/frontpage-options.php:324
+msgid "Posts to be shown on Editorials slider section"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:463
-msgid "Posts to be shown on trending tab"
+#: inc/customizer/frontpage-options.php:351
+msgid "Trending Section "
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:484
-msgid "Disable Main Banner section on Static Posts page"
+#: inc/customizer/frontpage-options.php:390
+msgid "Select Trending Carousel Position"
 msgstr ""
 
-#: newsphere/inc/customizer/frontpage-options.php:499
-msgid "Featured Section"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:517
-msgid "Enable Featured Posts Section"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:536
-msgid "Featured Posts Section Title"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:556
-msgid "Featured Posts Category"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:557
-msgid "Posts to be shown on featured section "
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:569
-msgid "Frontpage Layout Settings"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:588
-msgid "Frontpage Content alignment"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:589
-msgid "Select frontpage content alignment"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:593
-msgid "Home Content - Home Sidebar"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:594
-msgid "Home Sidebar - Home Content"
-msgstr ""
-
-#: newsphere/inc/customizer/frontpage-options.php:595
-msgid "Only Home Content"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:16
-#: newsphere/lib/info/info.php:72
-msgid "Theme Options"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:26
-msgid "Preloader Options"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:44
-msgid "Enable preloader"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:61
-#: newsphere/admin-dashboard/src/components/json/home-content.js:5
-msgid "Header Options"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:79
-msgid "Show date on top header"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:99
-msgid "Show social menu on top header"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:119
-msgid "Show breadcrumbs"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:138
-msgid "Select Breadcrumbs"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:139
-msgid "Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:144
-msgid "Yoast SEO"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:145
-msgid "Rank Math"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:146
-msgid "NavXT"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:162
-msgid "Sidebar Settings"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:180
-msgid "Enable Sticky Sidebar"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:199
-msgid "Sidebar Sticky Position"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:203
-msgid "Top"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:204
-msgid "Bottom"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:222
-msgid "Global Settings"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:239
-msgid "Language Switcher Shortcode"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:259
-msgid "Global Content Alignment"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:263
-msgid "Content - Primary sidebar"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:264
-msgid "Primary sidebar - Content"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:265
-#: newsphere/inc/hooks/hook-meta.php:80
-msgid "Full width content"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:281
-msgid "Post Categories"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:285
-#: newsphere/inc/customizer/theme-options.php:320
-#: newsphere/inc/customizer/theme-options.php:375
-msgid "Show"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:286
-#: newsphere/inc/customizer/theme-options.php:321
-#: newsphere/inc/customizer/theme-options.php:376
-msgid "Hide"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:298
-#: newsphere/inc/customizer/theme-options.php:316
-msgid "Comment Count"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:338
-msgid "Hide Comment Count in List"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:352
-#: newsphere/inc/customizer/theme-options.php:371
-msgid "Minutes Read Count"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:392
-msgid "Number of Words per Minute Read"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:410
-msgid "Hide Minutes Read Count in List"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:424
-#: newsphere/inc/customizer/theme-options.php:443
-msgid "Date and Author"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:447
-msgid "Show Date and Author"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:448
-msgid "Show Date Only"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:449
-msgid "Show Author Only"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:450
-msgid "Hide All"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:466
-msgid "Hide Date and Author in List"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:486
-msgid "Date Format"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:490
-msgid "Date Format by Theme"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:491
-msgid "WordPress Default Date Format"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:509
-msgid "Widget Excerpt Mode"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:513
-msgid "Trimmed Content"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:514
-msgid "Default Excerpt"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:527
-msgid "Single Post"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:545
-msgid "Show on featured image"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:563
-msgid "Single Content mode"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:564
-msgid "Select global single content mode"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:568
-msgid "Wide - Default"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:569
-msgid "Boxed"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:580
-msgid "Related Posts"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:598
-msgid "Show on single posts"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:616
-#: newsphere/inc/widgets/widget-author-info.php:147
-#: newsphere/inc/widgets/widget-posts-list.php:143
-#: newsphere/inc/widgets/widget-posts-slider.php:140
-#: newsphere/inc/widgets/widget-posts-tabbed.php:136
-#: newsphere/inc/widgets/widget-posts-tabbed.php:139
-#: newsphere/inc/widgets/widget-posts-tabbed.php:146
-msgid "Title"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:635
-msgid "Archive Settings"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:653
-msgid "Image alignment"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:654
-msgid "Select image alignment for archive"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:658
+#: inc/customizer/frontpage-options.php:394
+#: inc/customizer/theme-options.php:545
 msgid "Left"
 msgstr ""
 
-#: newsphere/inc/customizer/theme-options.php:659
+#: inc/customizer/frontpage-options.php:395
+#: inc/customizer/theme-options.php:546
 msgid "Right"
 msgstr ""
 
-#: newsphere/inc/customizer/theme-options.php:660
+#: inc/customizer/frontpage-options.php:421
+msgid "Posts to be shown on Trending slider section"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:449
+msgid "Disable Main Banner section on Static Posts page"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:461
+msgid "Frontpage Layout Settings"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:481
+msgid "Frontpage Content alignment"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:482
+msgid "Select frontpage content alignment"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:486
+msgid "Default - Frontpage Layout 1 "
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:487
+msgid "Frontpage Layout 2"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:488
+msgid "Frontpage Layout 3"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:504
+msgid "Make Frontpage Sidebar Sticky"
+msgstr ""
+
+#: inc/customizer/theme-options.php:16
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:26
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:44
+msgid "Enable preloader"
+msgstr ""
+
+#: inc/customizer/theme-options.php:61
+msgid "Global Settings"
+msgstr ""
+
+#: inc/customizer/theme-options.php:80
+msgid "Global Content Alignment"
+msgstr ""
+
+#: inc/customizer/theme-options.php:84
+msgid "Content - Primary sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:85
+msgid "Primary sidebar - Content"
+msgstr ""
+
+#: inc/customizer/theme-options.php:86
+#: inc/hooks/hook-meta.php:80
+msgid "Full width content"
+msgstr ""
+
+#: inc/customizer/theme-options.php:102
+msgid "Post Categories"
+msgstr ""
+
+#: inc/customizer/theme-options.php:106
+#: inc/customizer/theme-options.php:244
+#: inc/customizer/theme-options.php:367
+#: inc/customizer/theme-options.php:404
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/theme-options.php:107
+#: inc/customizer/theme-options.php:245
+#: inc/customizer/theme-options.php:368
+#: inc/customizer/theme-options.php:405
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/theme-options.php:125
+msgid "Excerpt Mode"
+msgstr ""
+
+#: inc/customizer/theme-options.php:129
+msgid "Trimmed Content"
+msgstr ""
+
+#: inc/customizer/theme-options.php:130
+msgid "Default Excerpt"
+msgstr ""
+
+#: inc/customizer/theme-options.php:141
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:159
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/customizer/theme-options.php:178
+msgid "Select Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/theme-options.php:179
+msgid "Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default"
+msgstr ""
+
+#: inc/customizer/theme-options.php:184
+msgid "Yoast SEO"
+msgstr ""
+
+#: inc/customizer/theme-options.php:185
+msgid "Rank Math"
+msgstr ""
+
+#: inc/customizer/theme-options.php:186
+msgid "NavXT"
+msgstr ""
+
+#: inc/customizer/theme-options.php:202
+#: admin-dashboard/src/components/json/home-content.js:5
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:222
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/customizer/theme-options.php:240
+msgid "Home Menu Icon"
+msgstr ""
+
+#: inc/customizer/theme-options.php:271
+msgid "Custom Link Section "
+msgstr ""
+
+#: inc/customizer/theme-options.php:290
+msgid "Enable Watch Online Section"
+msgstr ""
+
+#: inc/customizer/theme-options.php:308
+#: inc/customizer/theme-options.php:503
+#: inc/widgets/widget-author-info.php:172
+#: inc/widgets/widget-posts-express-list.php:204
+#: inc/widgets/widget-posts-grid.php:167
+#: inc/widgets/widget-posts-list.php:164
+#: inc/widgets/widget-posts-slider.php:160
+#: inc/widgets/widget-posts-tabbed.php:190
+#: inc/widgets/widget-posts-tabbed.php:193
+#: inc/widgets/widget-posts-tabbed.php:200
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/theme-options.php:326
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/theme-options.php:345
+#: inc/customizer/theme-options.php:363
+msgid "Comment Count"
+msgstr ""
+
+#: inc/customizer/theme-options.php:381
+#: inc/customizer/theme-options.php:400
+msgid "Minutes Read Count"
+msgstr ""
+
+#: inc/customizer/theme-options.php:416
+#: inc/customizer/theme-options.php:435
+msgid "Date and Author"
+msgstr ""
+
+#: inc/customizer/theme-options.php:439
+msgid "Show Date and Author"
+msgstr ""
+
+#: inc/customizer/theme-options.php:440
+msgid "Hide All"
+msgstr ""
+
+#: inc/customizer/theme-options.php:452
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/theme-options.php:470
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/customizer/theme-options.php:483
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:520
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer/theme-options.php:540
+msgid "Image alignment"
+msgstr ""
+
+#: inc/customizer/theme-options.php:541
+msgid "Select image alignment for archive"
+msgstr ""
+
+#: inc/customizer/theme-options.php:547
 msgid "Alternate"
 msgstr ""
 
-#: newsphere/inc/customizer/theme-options.php:671
+#: inc/customizer/theme-options.php:559
 msgid "You May Have Missed"
 msgstr ""
 
-#: newsphere/inc/customizer/theme-options.php:688
-msgid "Show Latest Posts Section above Footer"
-msgstr ""
-
-#: newsphere/inc/customizer/theme-options.php:706
+#: inc/customizer/theme-options.php:578
 msgid "Posts Section Title"
 msgstr ""
 
-#: newsphere/inc/customizer/theme-options.php:722
+#: inc/customizer/theme-options.php:594
 msgid "Footer"
 msgstr ""
 
-#: newsphere/inc/customizer/theme-options.php:740
+#: inc/customizer/theme-options.php:612
 msgid "Copyright Text"
 msgstr ""
 
-#: newsphere/inc/hooks/blocks/block-archive-list.php:63
-#: newsphere/template-parts/content-page.php:27
-#: newsphere/template-parts/content.php:44
+#: inc/hooks/blocks/block-archive-list.php:67
+#: template-parts/content-page.php:27
+#: template-parts/content.php:42
 msgid "Pages:"
 msgstr ""
 
-#: newsphere/inc/hooks/blocks/block-banner-list.php:34
-#: newsphere/inc/hooks/hook-front-page-banner-exclusive-posts.php:78
-msgid "%s"
+#: inc/hooks/hook-front-page-banner-promotions.php:26
+msgid "Advertisemennt"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-front-page-banner-tabbed-posts.php:39
-#: newsphere/inc/widgets/widget-posts-tabbed.php:67
-msgid "Recent"
+#: inc/hooks/hook-header-section.php:39
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:306
+msgid "Home"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-front-page-banner-tabbed-posts.php:58
-#: newsphere/inc/widgets/widget-posts-tabbed.php:83
-msgid "Categorised"
+#: inc/hooks/hook-header-section.php:50
+msgid "Menu"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:23
+#: inc/hooks/hook-meta.php:23
 msgid "Layout Options"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:71
+#: inc/hooks/hook-meta.php:71
 msgid "Set as global layout"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:74
+#: inc/hooks/hook-meta.php:74
 msgid "Content - Primary Sidebar"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:77
+#: inc/hooks/hook-meta.php:77
 msgid "Primary Sidebar - Content"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:153
-#: newsphere/inc/hooks/hook-meta.php:192
+#: inc/hooks/hook-meta.php:153
+#: inc/hooks/hook-meta.php:194
 msgid "Category Color 1"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:154
-#: newsphere/inc/hooks/hook-meta.php:193
+#: inc/hooks/hook-meta.php:154
+#: inc/hooks/hook-meta.php:195
 msgid "Category Color 2"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:155
-#: newsphere/inc/hooks/hook-meta.php:194
+#: inc/hooks/hook-meta.php:155
+#: inc/hooks/hook-meta.php:196
 msgid "Category Color 3"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:160
-#: newsphere/inc/hooks/hook-meta.php:188
+#: inc/hooks/hook-meta.php:162
+#: inc/hooks/hook-meta.php:190
 msgid "Color Class"
 msgstr ""
 
-#: newsphere/inc/hooks/hook-meta.php:166
-#: newsphere/inc/hooks/hook-meta.php:202
+#: inc/hooks/hook-meta.php:168
+#: inc/hooks/hook-meta.php:204
 msgid "Select category color class. You can set appropriate categories color on \"Categories\" section of the theme customizer."
 msgstr ""
 
-#: newsphere/inc/hooks/hook-tgm.php:19
-msgid "Blockspare - Beautiful Page Building Blocks for WordPress"
-msgstr ""
-
-#: newsphere/inc/hooks/hook-tgm.php:24
-msgid "Latest Posts Block Lite"
-msgstr ""
-
-#: newsphere/inc/hooks/hook-tgm.php:29
-msgid "Magic Content Box Lite"
-msgstr ""
-
-#: newsphere/inc/hooks/hook-tgm.php:34
-msgid "WP Post Author"
-msgstr ""
-
-#: newsphere/inc/hooks/hook-tgm.php:39
+#: inc/hooks/hook-tgm.php:19
 msgid "AF Companion"
 msgstr ""
 
+#: inc/hooks/hook-tgm.php:24
+msgid "Templatespare"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:29
+msgid "Elespare"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:34
+msgid "Blockspare"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:39
+msgid "Latest Posts Block"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:44
+msgid "Magic Content Box"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:49
+msgid "WP Post Author"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:54
+msgid "Free Live Chat using 3CX"
+msgstr ""
+
 #. Translators: %1$s current user display name.
-#: newsphere/inc/notice-review.php:80
+#: inc/review.php:85
 msgid "Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we hope you are loving it! We would appreciate it if you can %3$sgive us a 5 star rating on WordPress.org%4$s! We'll continue to develop exciting new features for free in the future by sharing the love!"
 msgstr ""
 
-#: newsphere/inc/notice-review.php:94
+#: inc/review.php:99
 msgid "Sure thing"
 msgstr ""
 
-#: newsphere/inc/notice-review.php:99
+#: inc/review.php:104
 msgid "Remind me later"
 msgstr ""
 
-#: newsphere/inc/notice-review.php:104
+#: inc/review.php:109
 msgid "I've already done."
 msgstr ""
 
-#: newsphere/inc/notice-review.php:109
+#: inc/review.php:114
 msgid "Got any support queries?"
 msgstr ""
 
-#: newsphere/inc/notice-upgrade.php:69
-#: newsphere/inc/notice-upgrade.php:89
-msgid "Action failed. Please refresh the page and retry."
-msgstr ""
-
-#: newsphere/inc/notice-upgrade.php:73
-#: newsphere/inc/notice-upgrade.php:93
-msgid "Cheatin&#8217; huh?"
-msgstr ""
-
-#. Translators: %1$s current user display name., %2$s this theme name., %3$s discount coupon code., %4$s discount percentage.
-#: newsphere/inc/notice-upgrade.php:177
-msgid "Hello %1$s! We hope you're enjoying the %2$s theme now that you've been using it for a while. You may always upgrade to pro to gain access to more premium features. You can also get a %4$s discount (limited time offer) by using the promo code %3$s when making your purchase. Enjoy! "
-msgstr ""
-
-#: newsphere/inc/notice-upgrade.php:192
-msgid "Upgrade to pro"
-msgstr ""
-
-#: newsphere/inc/notice-upgrade.php:197
-msgid "Maybe later"
-msgstr ""
-
-#: newsphere/inc/notice-upgrade.php:202
-msgid "Got pre sales queries?"
-msgstr ""
-
-#: newsphere/inc/template-functions.php:450
+#: inc/template-functions.php:471
 msgid "Previous"
 msgstr ""
 
-#: newsphere/inc/template-functions.php:451
+#: inc/template-functions.php:472
 msgid "Next"
 msgstr ""
 
-#: newsphere/inc/template-functions.php:485
+#: inc/template-functions.php:520
 msgid "%s min read"
 msgid_plural "%s min read"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/inc/template-tags.php:35
+#: inc/template-tags.php:37
 msgid "View all posts in %s"
 msgstr ""
 
-#: newsphere/inc/template-tags.php:89
+#: inc/template-tags.php:88
+#: inc/template-tags.php:176
 msgid "ago"
 msgstr ""
 
-#. translators: used between list items, there is a space after the comma
-#: newsphere/inc/template-tags.php:122
-msgctxt "list item separator"
-msgid " "
-msgstr ""
-
 #. translators: %s: Name of current post. Only visible to screen readers
-#: newsphere/inc/template-tags.php:134
-#: newsphere/template-parts/content-page.php:41
+#: inc/template-tags.php:147
+#: template-parts/content-page.php:41
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:20
+#: inc/upgrade.php:69
+#: inc/upgrade.php:89
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/upgrade.php:73
+#: inc/upgrade.php:93
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Translators: %1$s current user display name., %2$s this theme name., %3$s discount coupon code., %4$s discount percentage.
+#: inc/upgrade.php:177
+msgid "%1$s 🎁 Hope you're loving our free %2$s theme! Dive into the festive spirit with an exclusive gift: %4$s premium features! Use code %3$s at checkout. Wishing you a season filled with joyous holidays and even happier savings! 🎄✨"
+msgstr ""
+
+#: inc/upgrade.php:192
+msgid "Claim Your Discount"
+msgstr ""
+
+#: inc/upgrade.php:197
+msgid "Power Bundle"
+msgstr ""
+
+#: inc/upgrade.php:202
+msgid "All Themes Plan"
+msgstr ""
+
+#: inc/upgrade.php:207
+msgid "Maybe Later"
+msgstr ""
+
+#: inc/upgrade.php:212
+msgid "Have Queries?"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:22
 msgid "Displays author info."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:24
-msgid "AFTSC Author Info"
+#: inc/widgets/widget-author-info.php:26
+msgid "AFTN Author Info"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:147
-msgid "About Store"
+#: inc/widgets/widget-author-info.php:163
+#: inc/widgets/widget-posts-double-category.php:336
+#: inc/widgets/widget-posts-express-list.php:193
+#: inc/widgets/widget-posts-grid.php:155
+#: inc/widgets/widget-posts-list.php:152
+#: inc/widgets/widget-posts-single-column.php:142
+#: inc/widgets/widget-posts-slider.php:149
+#: inc/widgets/widget-posts-tabbed.php:180
+#: inc/widgets/widget-social-contacts.php:109
+msgid "Dim"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:149
+#: inc/widgets/widget-author-info.php:164
+#: inc/widgets/widget-posts-double-category.php:337
+#: inc/widgets/widget-posts-express-list.php:194
+#: inc/widgets/widget-posts-grid.php:156
+#: inc/widgets/widget-posts-list.php:153
+#: inc/widgets/widget-posts-single-column.php:143
+#: inc/widgets/widget-posts-slider.php:150
+#: inc/widgets/widget-posts-tabbed.php:181
+#: inc/widgets/widget-social-contacts.php:110
+msgid "Alternative"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:172
+msgid "About Author"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:174
 msgid "Profile image"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:150
+#: inc/widgets/widget-author-info.php:175
 msgid "Name"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:151
+#: inc/widgets/widget-author-info.php:176
 msgid "Descriptions"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:152
+#: inc/widgets/widget-author-info.php:177
 msgid "Facebook"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:153
-msgid "Twitter"
+#: inc/widgets/widget-author-info.php:178
+msgid "Instagram"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-author-info.php:154
+#: inc/widgets/widget-author-info.php:179
 msgid "Youtube"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-carousel.php:20
-msgid "Displays posts carousel from selected category."
+#: inc/widgets/widget-author-info.php:180
+#: inc/widgets/widget-posts-double-category.php:355
+#: inc/widgets/widget-posts-express-list.php:206
+#: inc/widgets/widget-posts-grid.php:169
+#: inc/widgets/widget-posts-list.php:167
+#: inc/widgets/widget-posts-single-column.php:156
+#: inc/widgets/widget-posts-slider.php:164
+#: inc/widgets/widget-posts-tabbed.php:205
+#: inc/widgets/widget-social-contacts.php:118
+msgid "Select Background"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-carousel.php:24
-msgid "AFTN Posts Carousel"
-msgstr ""
-
-#: newsphere/inc/widgets/widget-posts-carousel.php:139
-#: newsphere/inc/widgets/widget-posts-list.php:144
-#: newsphere/inc/widgets/widget-posts-single-column.php:155
-#: newsphere/inc/widgets/widget-posts-slider.php:142
-#: newsphere/inc/widgets/widget-posts-tabbed.php:147
-msgid "Select category"
-msgstr ""
-
-#: newsphere/inc/widgets/widget-posts-double-category.php:20
+#: inc/widgets/widget-posts-double-category.php:20
 msgid "Displays posts from 2 selected categories in double column."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-double-category.php:24
+#: inc/widgets/widget-posts-double-category.php:24
 msgid "AFTN Double Categories Posts"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-double-category.php:246
+#: inc/widgets/widget-posts-double-category.php:330
+msgid "Big thumb in first and other in list"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-category.php:331
+msgid "All in list"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-category.php:350
 msgid "Title 1"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-double-category.php:247
+#: inc/widgets/widget-posts-double-category.php:351
 msgid "Select category 1"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-double-category.php:248
+#: inc/widgets/widget-posts-double-category.php:352
 msgid "Title 2"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-double-category.php:249
+#: inc/widgets/widget-posts-double-category.php:353
 msgid "Select category 2"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-list.php:20
-msgid "Displays posts from selected category in a list."
+#: inc/widgets/widget-posts-express-list.php:20
+msgid "Displays posts from selected category in an express list."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-list.php:24
-msgid "AFTN Posts List"
+#: inc/widgets/widget-posts-express-list.php:24
+msgid "AFTN Posts Express List"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-list.php:134
-#: newsphere/inc/widgets/widget-posts-single-column.php:145
-#: newsphere/inc/widgets/widget-posts-slider.php:133
-#: newsphere/inc/widgets/widget-posts-tabbed.php:127
+#: inc/widgets/widget-posts-express-list.php:195
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/widgets/widget-posts-express-list.php:204
+msgid "Posts Express List"
+msgstr ""
+
+#: inc/widgets/widget-posts-express-list.php:205
+#: inc/widgets/widget-posts-grid.php:168
+#: inc/widgets/widget-posts-list.php:165
+#: inc/widgets/widget-posts-single-column.php:155
+#: inc/widgets/widget-posts-slider.php:162
+#: inc/widgets/widget-posts-tabbed.php:201
+msgid "Select category"
+msgstr ""
+
+#: inc/widgets/widget-posts-grid.php:20
+msgid "Displays posts from selected category in a grid."
+msgstr ""
+
+#: inc/widgets/widget-posts-grid.php:24
+msgid "AFTN Posts Grid"
+msgstr ""
+
+#: inc/widgets/widget-posts-grid.php:148
+#: inc/widgets/widget-posts-list.php:145
+#: inc/widgets/widget-posts-slider.php:142
+#: inc/widgets/widget-posts-tabbed.php:167
+#: inc/widgets/widget-posts-tabbed.php:174
 msgid "Yes"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-list.php:135
-#: newsphere/inc/widgets/widget-posts-single-column.php:146
-#: newsphere/inc/widgets/widget-posts-slider.php:134
-#: newsphere/inc/widgets/widget-posts-tabbed.php:128
+#: inc/widgets/widget-posts-grid.php:149
+#: inc/widgets/widget-posts-list.php:146
+#: inc/widgets/widget-posts-slider.php:143
+#: inc/widgets/widget-posts-tabbed.php:168
+#: inc/widgets/widget-posts-tabbed.php:173
 msgid "No"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-list.php:143
+#: inc/widgets/widget-posts-grid.php:167
+msgid "Posts Grid"
+msgstr ""
+
+#: inc/widgets/widget-posts-list.php:20
+msgid "Displays posts from selected category in a list."
+msgstr ""
+
+#: inc/widgets/widget-posts-list.php:24
+msgid "AFTN Posts List"
+msgstr ""
+
+#: inc/widgets/widget-posts-list.php:164
 msgid "Posts List"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-single-column.php:20
+#: inc/widgets/widget-posts-single-column.php:20
 msgid "Displays posts from selected category in single column."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-single-column.php:24
+#: inc/widgets/widget-posts-single-column.php:24
 msgid "AFTN Single Column "
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-single-column.php:157
-msgid "Show excerpt"
-msgstr ""
-
-#: newsphere/inc/widgets/widget-posts-slider.php:20
+#: inc/widgets/widget-posts-slider.php:20
 msgid "Displays posts slider from selected category."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-slider.php:24
+#: inc/widgets/widget-posts-slider.php:24
 msgid "AFTN Posts Slider"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:21
+#: inc/widgets/widget-posts-tabbed.php:21
 msgid "Displays tabbed posts lists from selected settings."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:25
+#: inc/widgets/widget-posts-tabbed.php:25
 msgid "AFTN Tabbed Posts"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:50
+#: inc/widgets/widget-posts-tabbed.php:50
 msgid "AFTN Popular"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:51
+#: inc/widgets/widget-posts-tabbed.php:51
 msgid "AFTN Latest"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:135
+#: inc/widgets/widget-posts-tabbed.php:78
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:90
+#: inc/widgets/widget-posts-tabbed.php:193
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:104
+msgid "Categorised"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:189
 msgid "Latest Posts"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:138
+#: inc/widgets/widget-posts-tabbed.php:190
+msgid "Latest"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:192
 msgid "Popular Posts"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:143
+#: inc/widgets/widget-posts-tabbed.php:197
 msgid "Categorised Posts"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-posts-tabbed.php:145
+#: inc/widgets/widget-posts-tabbed.php:199
 msgid "Enable Categorised Tab"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-social-contacts.php:20
+#: inc/widgets/widget-posts-tabbed.php:203
+msgid "Settings for all tabs"
+msgstr ""
+
+#: inc/widgets/widget-social-contacts.php:20
 msgid "Displays social contacts lists from selected settings."
 msgstr ""
 
-#: newsphere/inc/widgets/widget-social-contacts.php:24
+#: inc/widgets/widget-social-contacts.php:24
 msgid "AFTN Social Contacts"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-social-contacts.php:41
+#: inc/widgets/widget-social-contacts.php:41
 msgid "AFTN Social"
 msgstr ""
 
-#: newsphere/inc/widgets/widget-social-contacts.php:78
+#: inc/widgets/widget-social-contacts.php:89
 msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-base.php:196
+#: inc/widgets/widgets-base.php:196
 msgid "Upload"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-base.php:197
+#: inc/widgets/widgets-base.php:197
 msgid "Select Image"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-base.php:198
+#: inc/widgets/widgets-base.php:198
 msgid "Choose Image"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-base.php:209
+#: inc/widgets/widgets-base.php:209
 msgctxt "Remove"
 msgid "X"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-common-functions.php:33
+#: inc/widgets/widgets-common-functions.php:29
 msgid "Select Category"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:10
+#: inc/widgets/widgets-register-sidebars.php:10
 msgid "Main Sidebar"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:12
+#: inc/widgets/widgets-register-sidebars.php:12
 msgid "Add widgets for main sidebar."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:21
+#: inc/widgets/widgets-register-sidebars.php:22
 msgid "Off Canvas"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:23
+#: inc/widgets/widgets-register-sidebars.php:24
 msgid "Add widgets for off-canvas section."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:33
+#: inc/widgets/widgets-register-sidebars.php:32
 msgid "Front-page Content Section"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:35
+#: inc/widgets/widgets-register-sidebars.php:34
 msgid "Add widgets to front-page contents section."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:43
-msgid "Front-page Sidebar Section"
+#: inc/widgets/widgets-register-sidebars.php:42
+msgid "Front-page Primary Sidebar"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:45
-msgid "Add widgets to front-page sidebar section."
+#: inc/widgets/widgets-register-sidebars.php:44
+msgid "Add widgets to front-page first sidebar section."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:54
+#: inc/widgets/widgets-register-sidebars.php:52
+msgid "Front-page Secondary Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:54
+msgid "Add widgets to front-page second sidebar section."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:63
 msgid "Footer First Section"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:56
+#: inc/widgets/widgets-register-sidebars.php:65
 msgid "Displays items on footer first column."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:65
+#: inc/widgets/widgets-register-sidebars.php:74
 msgid "Footer Second Section"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:67
+#: inc/widgets/widgets-register-sidebars.php:76
 msgid "Displays items on footer second column."
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:75
+#: inc/widgets/widgets-register-sidebars.php:84
 msgid "Footer Third Section"
 msgstr ""
 
-#: newsphere/inc/widgets/widgets-register-sidebars.php:77
+#: inc/widgets/widgets-register-sidebars.php:86
 msgid "Displays items on footer third column."
 msgstr ""
 
-#: newsphere/inc/woocommerce.php:254
+#: inc/woocommerce.php:254
 msgid "View your shopping cart"
 msgstr ""
 
 #. translators: number of items in the mini cart.
-#: newsphere/inc/woocommerce.php:258
+#: inc/woocommerce.php:258
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:310
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:304
 msgid "Browse:"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:311
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:305
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:312
-msgid "Home"
-msgstr ""
-
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:313
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:307
 msgid "404 Not Found"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:314
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:308
 msgid "Archives"
 msgstr ""
 
 #. Translators: %s is the search query.
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:316
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:310
 msgid "Search results for: %s"
 msgstr ""
 
 #. Translators: %s is the page number.
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:318
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:312
 msgid "Page %s"
 msgstr ""
 
 #. Translators: %s is the page number.
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:320
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:314
 msgid "Comment Page %s"
 msgstr ""
 
 #. Translators: Minute archive title. %s is the minute time format.
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:322
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:316
 msgid "Minute %s"
 msgstr ""
 
 #. Translators: Weekly archive title. %s is the week date format.
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:324
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:318
 msgid "Week %s"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:784
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:791
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:801
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:809
 msgctxt "minute archives time format"
 msgid "i"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:818
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:827
 msgctxt "hour archives time format"
 msgid "g a"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:834
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:863
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:890
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:917
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:1257
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:844
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:874
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:902
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:930
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:1285
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:835
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:891
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:1261
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:845
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:903
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:1289
 msgctxt "monthly archives date format"
 msgid "F"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:836
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:1265
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:846
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:1293
 msgctxt "daily archives date format"
 msgid "j"
 msgstr ""
 
-#: newsphere/lib/breadcrumb-trail/inc/breadcrumbs.php:864
+#: lib/breadcrumb-trail/inc/breadcrumbs.php:875
 msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
 
-#: newsphere/lib/info/class.info.php:126
-msgid "Welcome! Thank you for choosing %1$s. To fully take advantage of the best our theme can offer please make sure you visit theme details page."
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:126
-msgid "Get started with %1$s"
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:126
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:395
-msgid "Dismiss this notice"
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:232
-msgid "%s() method does not exist."
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:341
-#: newsphere/lib/info/class.info.php:382
-msgid "Manage Plugins"
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:410
-msgid "Product Features"
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:411
-#: newsphere/admin-dashboard/src/components/nav-content/free-pro.js:12
-msgid "Free"
-msgstr ""
-
-#: newsphere/lib/info/class.info.php:412
-msgid "Premium"
-msgstr ""
-
-#: newsphere/lib/info/info.php:20
-msgid "Howdy %1$s, we would like to thank you for installing and activating %2$s theme for your precious site. All of the features provided by the theme are now ready to use; Here, we have gathered all of the essential details and helpful links for you and your better experience with %2$s. Once again, Thanks for using our theme!"
-msgstr ""
-
-#: newsphere/lib/info/info.php:24
-msgid "Getting Started"
-msgstr ""
-
-#: newsphere/lib/info/info.php:25
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:10
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:11
-msgid "Support"
-msgstr ""
-
-#: newsphere/lib/info/info.php:26
-#: newsphere/admin-dashboard/src/components/main.js:62
-msgid "Useful Plugins"
-msgstr ""
-
-#: newsphere/lib/info/info.php:27
-#: newsphere/lib/info/info.php:88
-#: newsphere/lib/info/info.php:91
-msgid "Demo Content"
-msgstr ""
-
-#: newsphere/lib/info/info.php:28
-#: newsphere/admin-dashboard/src/components/main.js:69
-msgid "Free vs Pro"
-msgstr ""
-
-#: newsphere/lib/info/info.php:29
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:424
-msgid "Upgrade to Pro"
-msgstr ""
-
-#: newsphere/lib/info/info.php:35
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:6
-msgid "Theme Details"
-msgstr ""
-
-#: newsphere/lib/info/info.php:39
-#: newsphere/lib/info/info.php:99
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:10
-msgid "View Demo"
-msgstr ""
-
-#: newsphere/lib/info/info.php:43
-#: newsphere/lib/info/info.php:58
-#: newsphere/lib/info/info.php:121
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:14
-msgid "View Documentation"
-msgstr ""
-
-#: newsphere/lib/info/info.php:47
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:18
-msgid "Rate This Theme"
-msgstr ""
-
-#: newsphere/lib/info/info.php:55
-#: newsphere/lib/info/info.php:118
-msgid "Theme Documentation"
-msgstr ""
-
-#: newsphere/lib/info/info.php:64
-#: newsphere/lib/info/info.php:67
-#: newsphere/admin-dashboard/src/components/json/home-content.js:40
-msgid "Static Front Page"
-msgstr ""
-
-#: newsphere/lib/info/info.php:66
-msgid "To achieve custom home page other than blog listing, you need to create and set static front page."
-msgstr ""
-
-#: newsphere/lib/info/info.php:74
-msgid "Theme uses Customizer API for theme options. Using the Customizer you can easily customize different aspects of the theme."
-msgstr ""
-
-#: newsphere/lib/info/info.php:75
-msgid "Customize"
-msgstr ""
-
-#: newsphere/lib/info/info.php:80
-#: newsphere/lib/info/info.php:83
-msgid "Widgets"
-msgstr ""
-
-#: newsphere/lib/info/info.php:82
-msgid "Theme uses Wedgets API for widget options. Using the Widgets you can easily customize different aspects of the theme."
-msgstr ""
-
-#: newsphere/lib/info/info.php:90
-msgid "To import sample demo content, %1$s plugin should be installed and activated. After plugin is activated, visit Import Demo Data menu under Appearance."
-msgstr ""
-
-#: newsphere/lib/info/info.php:90
-#: newsphere/lib/info/info.php:144
-msgid "One Click Demo Import"
-msgstr ""
-
-#: newsphere/lib/info/info.php:96
-msgid "Theme Preview"
-msgstr ""
-
-#: newsphere/lib/info/info.php:98
-msgid "You can check out the theme demos for reference to find out what you can achieve using the theme and how it can be customized."
-msgstr ""
-
-#: newsphere/lib/info/info.php:109
-#: newsphere/lib/info/info.php:112
-msgid "Contact Support"
-msgstr ""
-
-#: newsphere/lib/info/info.php:111
-msgid "Got theme support question or found bug or got some feedbacks? Best place to ask your query is the dedicated Support forum for the theme."
-msgstr ""
-
-#: newsphere/lib/info/info.php:127
-msgid "Child Theme"
-msgstr ""
-
-#: newsphere/lib/info/info.php:129
-msgid "For advanced theme customization, it is recommended to use child theme rather than modifying the theme file itself. Using this approach, you wont lose the customization after theme update."
-msgstr ""
-
-#: newsphere/lib/info/info.php:130
-msgid "Learn More"
-msgstr ""
-
-#: newsphere/lib/info/info.php:139
-msgid "Theme supports some helpful WordPress plugins to enhance your site. But, please enable only those plugins which you need in your site. For example, enable WooCommerce only if you are using e-commerce."
-msgstr ""
-
-#: newsphere/lib/info/info.php:144
-msgid "To import demo content for this theme, %1$s plugin is needed. Please make sure plugin is installed and activated. After plugin is activated, you will see Import Demo Data menu under Appearance."
-msgstr ""
-
-#: newsphere/lib/info/info.php:217
-msgid "If you want more advanced features then you can upgrade to the premium version of the theme."
-msgstr ""
-
-#: newsphere/lib/info/info.php:218
-msgid "Upgrade Now"
-msgstr ""
-
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:327
+#: lib/tgm/class-tgm-plugin-activation.php:327
 msgid "Install Required Plugins"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:328
+#: lib/tgm/class-tgm-plugin-activation.php:328
 msgid "Install Plugins"
 msgstr ""
 
 #. translators: %s: plugin name.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:330
+#: lib/tgm/class-tgm-plugin-activation.php:330
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #. translators: %s: plugin name.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:332
+#: lib/tgm/class-tgm-plugin-activation.php:332
 msgid "Updating Plugin: %s"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:333
+#: lib/tgm/class-tgm-plugin-activation.php:333
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #. translators: 1: plugin name(s).
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:334
+#: lib/tgm/class-tgm-plugin-activation.php:334
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: plugin name(s).
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:340
+#: lib/tgm/class-tgm-plugin-activation.php:340
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: plugin name(s).
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:346
+#: lib/tgm/class-tgm-plugin-activation.php:346
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
 msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: plugin name(s).
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:352
+#: lib/tgm/class-tgm-plugin-activation.php:352
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: plugin name(s).
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:358
+#: lib/tgm/class-tgm-plugin-activation.php:358
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: plugin name(s).
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:364
+#: lib/tgm/class-tgm-plugin-activation.php:364
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:370
+#: lib/tgm/class-tgm-plugin-activation.php:370
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:375
+#: lib/tgm/class-tgm-plugin-activation.php:375
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:380
+#: lib/tgm/class-tgm-plugin-activation.php:380
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:385
+#: lib/tgm/class-tgm-plugin-activation.php:385
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:386
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:827
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2533
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3580
+#: lib/tgm/class-tgm-plugin-activation.php:386
+#: lib/tgm/class-tgm-plugin-activation.php:827
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:3580
 msgid "Return to the Dashboard"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:387
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3159
+#: lib/tgm/class-tgm-plugin-activation.php:387
+#: lib/tgm/class-tgm-plugin-activation.php:3159
 msgid "Plugin activated successfully."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:388
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2952
+#: lib/tgm/class-tgm-plugin-activation.php:388
+#: lib/tgm/class-tgm-plugin-activation.php:2952
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: plugin name.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:390
+#: lib/tgm/class-tgm-plugin-activation.php:390
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #. translators: 1: plugin name.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:392
+#: lib/tgm/class-tgm-plugin-activation.php:392
 msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
 #. translators: 1: dashboard link.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:394
+#: lib/tgm/class-tgm-plugin-activation.php:394
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:396
+#: lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:396
 msgid "There are one or more required or recommended plugins to install, update or activate."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:397
+#: lib/tgm/class-tgm-plugin-activation.php:397
 msgid "Please contact the administrator of this site for help."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:522
+#: lib/tgm/class-tgm-plugin-activation.php:522
 msgid "This plugin needs to be updated to be compatible with your theme."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:523
+#: lib/tgm/class-tgm-plugin-activation.php:523
 msgid "Update Required"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:934
 msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:934
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:937
+#: lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:937
 msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:937
+#: lib/tgm/class-tgm-plugin-activation.php:937
 msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:1121
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2948
+#: lib/tgm/class-tgm-plugin-activation.php:1121
+#: lib/tgm/class-tgm-plugin-activation.php:2948
 msgctxt "plugin A *and* plugin B"
 msgid "and"
 msgstr ""
 
 #. translators: %s: version number
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:1982
+#: lib/tgm/class-tgm-plugin-activation.php:1982
 msgid "TGMPA v%s"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2273
+#: lib/tgm/class-tgm-plugin-activation.php:2273
 msgid "Required"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2276
+#: lib/tgm/class-tgm-plugin-activation.php:2276
 msgid "Recommended"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2292
+#: lib/tgm/class-tgm-plugin-activation.php:2292
 msgid "WordPress Repository"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2295
+#: lib/tgm/class-tgm-plugin-activation.php:2295
 msgid "External Source"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2298
+#: lib/tgm/class-tgm-plugin-activation.php:2298
 msgid "Pre-Packaged"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2315
+#: lib/tgm/class-tgm-plugin-activation.php:2315
 msgid "Not Installed"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2319
+#: lib/tgm/class-tgm-plugin-activation.php:2319
 msgid "Installed But Not Activated"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2321
+#: lib/tgm/class-tgm-plugin-activation.php:2321
 msgid "Active"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2327
+#: lib/tgm/class-tgm-plugin-activation.php:2327
 msgid "Required Update not Available"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2330
+#: lib/tgm/class-tgm-plugin-activation.php:2330
 msgid "Requires Update"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2333
+#: lib/tgm/class-tgm-plugin-activation.php:2333
 msgid "Update recommended"
 msgstr ""
 
 #. translators: 1: install status, 2: update status
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2342
+#: lib/tgm/class-tgm-plugin-activation.php:2342
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
 #. translators: 1: number of plugins.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2388
+#: lib/tgm/class-tgm-plugin-activation.php:2388
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -1773,209 +1545,213 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of plugins.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2392
+#: lib/tgm/class-tgm-plugin-activation.php:2392
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of plugins.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2396
+#: lib/tgm/class-tgm-plugin-activation.php:2396
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of plugins.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2400
+#: lib/tgm/class-tgm-plugin-activation.php:2400
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2482
+#: lib/tgm/class-tgm-plugin-activation.php:2482
 msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2490
+#: lib/tgm/class-tgm-plugin-activation.php:2490
 msgid "Installed version:"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2498
+#: lib/tgm/class-tgm-plugin-activation.php:2498
 msgid "Minimum required version:"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2510
+#: lib/tgm/class-tgm-plugin-activation.php:2510
 msgid "Available version:"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:2533
 msgid "No plugins to install, update or activate."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2547
+#: lib/tgm/class-tgm-plugin-activation.php:2547
 msgid "Plugin"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2548
+#: lib/tgm/class-tgm-plugin-activation.php:2548
 msgid "Source"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2549
+#: lib/tgm/class-tgm-plugin-activation.php:2549
 msgid "Type"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2553
+#: lib/tgm/class-tgm-plugin-activation.php:2553
 msgid "Version"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2554
+#: lib/tgm/class-tgm-plugin-activation.php:2554
 msgid "Status"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2603
+#: lib/tgm/class-tgm-plugin-activation.php:2603
 msgid "Install %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2608
+#: lib/tgm/class-tgm-plugin-activation.php:2608
 msgid "Update %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2614
+#: lib/tgm/class-tgm-plugin-activation.php:2614
 msgid "Activate %2$s"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2684
+#: lib/tgm/class-tgm-plugin-activation.php:2684
 msgid "Upgrade message from the plugin author:"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2717
+#: lib/tgm/class-tgm-plugin-activation.php:2717
 msgid "Install"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2723
+#: lib/tgm/class-tgm-plugin-activation.php:2723
 msgid "Update"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2757
+#: lib/tgm/class-tgm-plugin-activation.php:2757
 msgid "No plugins were selected to be installed. No action taken."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2759
+#: lib/tgm/class-tgm-plugin-activation.php:2759
 msgid "No plugins were selected to be updated. No action taken."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2800
+#: lib/tgm/class-tgm-plugin-activation.php:2800
 msgid "No plugins are available to be installed at this time."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2802
+#: lib/tgm/class-tgm-plugin-activation.php:2802
 msgid "No plugins are available to be updated at this time."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2908
+#: lib/tgm/class-tgm-plugin-activation.php:2908
 msgid "No plugins were selected to be activated. No action taken."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:2934
+#: lib/tgm/class-tgm-plugin-activation.php:2934
 msgid "No plugins are available to be activated at this time."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3158
+#: lib/tgm/class-tgm-plugin-activation.php:3158
 msgid "Plugin activation failed."
 msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3498
+#: lib/tgm/class-tgm-plugin-activation.php:3498
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3501
+#: lib/tgm/class-tgm-plugin-activation.php:3501
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
 #. translators: 1: plugin name.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3503
+#: lib/tgm/class-tgm-plugin-activation.php:3503
 msgid "The installation of %1$s failed."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3507
+#: lib/tgm/class-tgm-plugin-activation.php:3507
 msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
 #. translators: 1: plugin name.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3509
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3517
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
 msgid "%1$s done."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3510
+#: lib/tgm/class-tgm-plugin-activation.php:3510
 msgid "All installations and activations have been completed."
 msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3512
+#: lib/tgm/class-tgm-plugin-activation.php:3512
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3515
+#: lib/tgm/class-tgm-plugin-activation.php:3515
 msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3518
+#: lib/tgm/class-tgm-plugin-activation.php:3518
 msgid "All installations have been completed."
 msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: newsphere/lib/tgm/class-tgm-plugin-activation.php:3520
+#: lib/tgm/class-tgm-plugin-activation.php:3520
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#. Template Name of the theme
+msgid "Blank Canvas"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page Builder Full Width"
+msgstr ""
+
 #. translators: %s: search query.
-#: newsphere/search.php:21
+#: search.php:21
 msgid "Search Results for: %s"
 msgstr ""
 
-#: newsphere/template-parts/content-none.php:14
+#: template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr ""
 
 #. translators: 1: link to WP admin new post page.
-#: newsphere/template-parts/content-none.php:25
+#: template-parts/content-none.php:25
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: newsphere/template-parts/content-none.php:38
+#: template-parts/content-none.php:38
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: newsphere/template-parts/content-none.php:44
+#: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: newsphere/template-parts/content.php:20
+#: template-parts/content.php:19
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: newsphere/template-parts/content.php:36
+#: template-parts/content.php:35
 msgid "<span class=\"em-post-navigation\">Previous</span> %title"
 msgstr ""
 
-#: newsphere/template-parts/content.php:37
+#: template-parts/content.php:36
 msgid "<span class=\"em-post-navigation\">Next</span> %title"
 msgstr ""
 
-#: newsphere/template-parts/content.php:39
-msgid "category"
-msgstr ""
-
-#: newsphere/template-parts/content.php:40
+#: template-parts/content.php:38
 msgid "Continue Reading"
 msgstr ""
 
@@ -1983,506 +1759,561 @@ msgstr ""
 msgid "Front-page Template"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/dashboard-content.js:33
+#: admin-dashboard/src/components/blockspare.demo.js:18
+msgid "Update Blockspare Pro"
+msgstr ""
+
+#: admin-dashboard/src/components/blockspare.demo.js:20
+msgid "Update Blockspare"
+msgstr ""
+
+#: admin-dashboard/src/components/blockspare.demo.js:33
+msgid "Powerful Gutenberg Blocks & Patterns"
+msgstr ""
+
+#: admin-dashboard/src/components/blockspare.demo.js:36
+msgid "Easily build and customize your pages with a vast library of Gutenberg blocks and patterns, perfect for blogs, magazines, and business sites. Add post grids, sliders, and carousels without touching a single line of code. Import demo data and effortlessly create multilingual, visually appealing pages with complete flexibility."
+msgstr ""
+
+#: admin-dashboard/src/components/dashboard-content.js:32
 msgid "Hello "
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/dashboard-content.js:35
-msgid "Welcome to"
+#: admin-dashboard/src/components/dashboard-content.js:34
+msgid "Welcome to "
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:2
-msgid "we would like to thank you for installing and activating [theme] theme for your precious site. All of the features provided by the theme are now ready to use; Here, we have gathered all of the essential details and helpful links for you and your better experience with [theme]. Once again, Thanks for using our theme!"
+#: admin-dashboard/src/components/elespare-demo.js:18
+msgid "Update Elespare Pro"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:24
-msgid "Upgrade"
+#: admin-dashboard/src/components/elespare-demo.js:20
+msgid "Update Elespare"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/dashboard-content.js:26
-msgid "Starter Sites"
+#: admin-dashboard/src/components/elespare-demo.js:34
+msgid "Professional Sites with Elementor"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:4
+#: admin-dashboard/src/components/elespare-demo.js:37
+msgid "Transform your blog, news, or magazine website with 35+ advanced Elementor widgets and 350+ customizable templates. Easily create headers, footers, post grids, sliders, and carousels with a fast-loading and SEO-optimized structure. Import demo content with a single click and enjoy codeless customization to craft your perfect site, no matter the language."
+msgstr ""
+
+#: admin-dashboard/src/components/json/dashboard-content.js:2
+msgid "We would like to thank you for installing and activating [theme] theme for your precious site. All of the features provided by the theme are now ready to use; Here, we have gathered all of the essential details and helpful links for you and your better experience with [theme]. Once again, Thanks for using our theme!"
+msgstr ""
+
+#: admin-dashboard/src/components/json/dashboard-content.js:9
+msgid "Theme Details"
+msgstr ""
+
+#: admin-dashboard/src/components/json/dashboard-content.js:13
+msgid "View Demo"
+msgstr ""
+
+#: admin-dashboard/src/components/json/dashboard-content.js:17
+msgid "View Documentation"
+msgstr ""
+
+#: admin-dashboard/src/components/json/dashboard-content.js:28
+msgid "Demo Sites"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:4
 msgid "Live editing in Customizer"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:9
+#: admin-dashboard/src/components/json/freepro-content.js:9
 msgid "One Click Demo Import Support"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:14
-msgid "Typography Style and Color"
+#: admin-dashboard/src/components/json/freepro-content.js:14
+msgid "Typography Style"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:19
+#: admin-dashboard/src/components/json/freepro-content.js:19
 msgid "Dark Mode"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:24
+#: admin-dashboard/src/components/json/freepro-content.js:25
 msgid "Light Mode"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:29
+#: admin-dashboard/src/components/json/freepro-content.js:31
+msgid "Advanced Color Controls"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:36
 msgid "Preloader Option"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:34
+#: admin-dashboard/src/components/json/freepro-content.js:41
+msgid "Basic Option for Custom Menu for Online Link"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:46
+msgid "Advance Option for Custom Menu for Online Link"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:51
 msgid "Multiple Header Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:39
+#: admin-dashboard/src/components/json/freepro-content.js:56
 msgid "Logo and title customization"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:44
+#: admin-dashboard/src/components/json/freepro-content.js:61
 msgid "Image Banner Advertisements"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:49
-msgid "Widget Banner Advertisements"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:54
+#: admin-dashboard/src/components/json/freepro-content.js:66
 msgid "Home Icon Toggle"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:59
-msgid "Menu Border Toggle"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:64
+#: admin-dashboard/src/components/json/freepro-content.js:71
 msgid "Language Switcher Shortcode Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:69
-msgid "Popular Tags Section"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:74
+#: admin-dashboard/src/components/json/freepro-content.js:76
 msgid "Exclusive News Section"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:79
+#: admin-dashboard/src/components/json/freepro-content.js:81
 msgid "Sticky Header Toggle"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:84
+#: admin-dashboard/src/components/json/freepro-content.js:86
 msgid "Multiple Frontpage Banner Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:89
-msgid "Frontpage Banner Posts Filter by Category"
+#: admin-dashboard/src/components/json/freepro-content.js:91
+msgid "Frontpage Banner Layouts"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:94
-msgid "Default Frontpage Banner Options"
+#: admin-dashboard/src/components/json/freepro-content.js:96
+msgid "Banner Trending Section Position"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:99
-msgid "Default with Thumbs Section Frontpage Banner Options"
+#: admin-dashboard/src/components/json/freepro-content.js:101
+msgid "Homepage 3 Col Widgets Section"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:104
-msgid "Slider with Tabbed Section Frontpage Banner Options"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:109
-msgid "Slider with Thumbs Section Frontpage Banner Options"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:114
-msgid "Carousel with Tabbed Section Frontpage Banner Options"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:119
-msgid "Carousel with Thumbs Section Frontpage Banner Options"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:124
-msgid "None Frontpage Banner Options"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:129
-msgid "Banner Section Background Image"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:134
-msgid "Featured Posts on Banner Section"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:139
-msgid "Banner Featured Posts Section"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:144
-msgid "Editors Picks on Banner Section"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:149
+#: admin-dashboard/src/components/json/freepro-content.js:106
 msgid "Posts Categories Toggle"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:154
+#: admin-dashboard/src/components/json/freepro-content.js:111
 msgid "Comments Count Toggle"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:159
+#: admin-dashboard/src/components/json/freepro-content.js:116
 msgid "Minutes Read Toggle"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:164
+#: admin-dashboard/src/components/json/freepro-content.js:121
 msgid "Date and Author Toggle"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:169
+#: admin-dashboard/src/components/json/freepro-content.js:126
 msgid "Posts Date format Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:174
+#: admin-dashboard/src/components/json/freepro-content.js:131
 msgid "Features Image Toggle in Single Post"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:179
+#: admin-dashboard/src/components/json/freepro-content.js:136
 msgid "Default Featured Image View in Single Post"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:184
+#: admin-dashboard/src/components/json/freepro-content.js:141
 msgid "Full Featured Image View in Single Post"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:189
+#: admin-dashboard/src/components/json/freepro-content.js:146
+msgid "Inside Content Featured Image View in Single Post"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:151
+msgid "Video Link for Single Post"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:156
 msgid "Category Color Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:194
+#: admin-dashboard/src/components/json/freepro-content.js:161
 msgid "Off Canvas Widget Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:199
-msgid "Archive Masonry Layout"
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:204
+#: admin-dashboard/src/components/json/freepro-content.js:166
 msgid "Banner Advertisements Widget Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:209
+#: admin-dashboard/src/components/json/freepro-content.js:171
 msgid "Posts Section Advertisements Widget Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:214
+#: admin-dashboard/src/components/json/freepro-content.js:176
 msgid "Above Main Banner Section Widget Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:219
+#: admin-dashboard/src/components/json/freepro-content.js:181
 msgid "Below Main Banner Section Widget Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:224
+#: admin-dashboard/src/components/json/freepro-content.js:186
 msgid "Custom Widgets"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:229
+#: admin-dashboard/src/components/json/freepro-content.js:191
 msgid "Basic Custom Widgets Controls"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:234
-msgid "Advance Custom Widgets Controls"
+#: admin-dashboard/src/components/json/freepro-content.js:196
+msgid "Advanced Custom Widgets Controls"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:239
+#: admin-dashboard/src/components/json/freepro-content.js:201
+msgid "Basic Widgets Background Color Control"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:206
+msgid "Advanced Widgets Background Color Control"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:211
+msgid "Widgets Border Color Control"
+msgstr ""
+
+#: admin-dashboard/src/components/json/freepro-content.js:216
 msgid "Author Biography"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:244
+#: admin-dashboard/src/components/json/freepro-content.js:221
 msgid "Post Carousel Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:249
+#: admin-dashboard/src/components/json/freepro-content.js:226
 msgid "Post Image Slider Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:254
-msgid "Post Double Column Double Categories Widget"
+#: admin-dashboard/src/components/json/freepro-content.js:231
+msgid "Post Double Column/Categories Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:259
+#: admin-dashboard/src/components/json/freepro-content.js:236
 msgid "Post Single Column Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:264
+#: admin-dashboard/src/components/json/freepro-content.js:241
 msgid "Post Grid Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:269
+#: admin-dashboard/src/components/json/freepro-content.js:246
 msgid "Post Express Grid Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:274
+#: admin-dashboard/src/components/json/freepro-content.js:251
 msgid "Post List Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:279
+#: admin-dashboard/src/components/json/freepro-content.js:256
 msgid "Post Express List Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:284
+#: admin-dashboard/src/components/json/freepro-content.js:261
 msgid "Post Tabbed Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:289
+#: admin-dashboard/src/components/json/freepro-content.js:266
 msgid "Social Contact Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:294
+#: admin-dashboard/src/components/json/freepro-content.js:271
 msgid "Trending Posts Vertical Carousel Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:299
+#: admin-dashboard/src/components/json/freepro-content.js:276
 msgid "YouTube Video Slider Widget"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:304
+#: admin-dashboard/src/components/json/freepro-content.js:281
 msgid "List Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:309
+#: admin-dashboard/src/components/json/freepro-content.js:286
 msgid "List Alternate Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:314
+#: admin-dashboard/src/components/json/freepro-content.js:291
 msgid "List Right Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:319
+#: admin-dashboard/src/components/json/freepro-content.js:296
 msgid "Grid Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:324
+#: admin-dashboard/src/components/json/freepro-content.js:301
 msgid "Grid Alternate Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:329
+#: admin-dashboard/src/components/json/freepro-content.js:306
 msgid "Grid Alternate with List Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:334
+#: admin-dashboard/src/components/json/freepro-content.js:311
 msgid "Grid Alternate with Full Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:339
+#: admin-dashboard/src/components/json/freepro-content.js:316
 msgid "Full Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:344
+#: admin-dashboard/src/components/json/freepro-content.js:321
 msgid "Masonry Archive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:349
+#: admin-dashboard/src/components/json/freepro-content.js:326
 msgid "Numeric Pagination"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:354
+#: admin-dashboard/src/components/json/freepro-content.js:331
 msgid "Ajax Load More Pagination"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:359
+#: admin-dashboard/src/components/json/freepro-content.js:336
 msgid "Infinite Scroll Pagination"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:364
+#: admin-dashboard/src/components/json/freepro-content.js:341
 msgid "Mailchimp Subscription Supports"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:369
+#: admin-dashboard/src/components/json/freepro-content.js:346
 msgid "Display Related Posts"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:374
+#: admin-dashboard/src/components/json/freepro-content.js:351
 msgid "Footer Widgets Section"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:379
+#: admin-dashboard/src/components/json/freepro-content.js:356
 msgid "Gutenberg Compatibility"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:384
+#: admin-dashboard/src/components/json/freepro-content.js:361
 msgid "RTL Compatibility"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:389
+#: admin-dashboard/src/components/json/freepro-content.js:366
 msgid "WooCommerce Compatibility"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:394
+#: admin-dashboard/src/components/json/freepro-content.js:371
 msgid "Hide Theme Credit Link"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:399
+#: admin-dashboard/src/components/json/freepro-content.js:376
 msgid "Responsive Layout"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:404
+#: admin-dashboard/src/components/json/freepro-content.js:381
 msgid "Translations Ready"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:409
+#: admin-dashboard/src/components/json/freepro-content.js:386
 msgid "SEO Optimized"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:414
+#: admin-dashboard/src/components/json/freepro-content.js:391
 msgid "Normal Support"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/freepro-content.js:419
+#: admin-dashboard/src/components/json/freepro-content.js:396
 msgid "Advance Support"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:6
+#: admin-dashboard/src/components/json/freepro-content.js:401
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin-dashboard/src/components/json/home-content.js:6
 msgid "Set the theme header type, set the colors, spacing, alignment and more."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:13
+#: admin-dashboard/src/components/json/home-content.js:13
 msgid "You can easily place your promotional banners within your header section."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:19
+#: admin-dashboard/src/components/json/home-content.js:19
 msgid "Color Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:20
+#: admin-dashboard/src/components/json/home-content.js:20
 msgid "Change the color setting provide with the Theme."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:26
+#: admin-dashboard/src/components/json/home-content.js:26
 msgid "Main Banner Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:27
+#: admin-dashboard/src/components/json/home-content.js:27
 msgid "Selecting different categories can be done for different section."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:33
+#: admin-dashboard/src/components/json/home-content.js:33
 msgid "Frontpage Option"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:34
-msgid "Frontpage layout with Popular Tag, Breaking News, Prime News, Main Banner, Feature News with Express Post can be set."
+#: admin-dashboard/src/components/json/home-content.js:34
+msgid "Frontpage layout with Popular Tag, Breaking News, Main Banner, Feature News can be set."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:41
+#: admin-dashboard/src/components/json/home-content.js:40
+msgid "Static Front Page"
+msgstr ""
+
+#: admin-dashboard/src/components/json/home-content.js:41
 msgid "Set the Homepage as a static page to create own homepage using widgets."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:47
+#: admin-dashboard/src/components/json/home-content.js:47
 msgid "Widgets Area"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:48
+#: admin-dashboard/src/components/json/home-content.js:48
 msgid "Widgets can be added on all the section provide by the Theme."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:54
+#: admin-dashboard/src/components/json/home-content.js:54
 msgid "Archive Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:55
+#: admin-dashboard/src/components/json/home-content.js:55
 msgid "Customize the blog layout desgin."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:61
+#: admin-dashboard/src/components/json/home-content.js:61
 msgid "Theme Option"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:62
+#: admin-dashboard/src/components/json/home-content.js:62
 msgid "Set the Global Layout, Breadcrumb, Sidebar, Single Post, You may have missed and more."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:68
+#: admin-dashboard/src/components/json/home-content.js:68
 msgid "Footer Options"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/home-content.js:69
+#: admin-dashboard/src/components/json/home-content.js:69
 msgid "Set the footer type, number of columns, spacing and colors."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:5
+#: admin-dashboard/src/components/json/sidebar-conntent.js:5
 msgid "View"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:13
+#: admin-dashboard/src/components/json/sidebar-conntent.js:10
+#: admin-dashboard/src/components/json/sidebar-conntent.js:11
+msgid "Support"
+msgstr ""
+
+#: admin-dashboard/src/components/json/sidebar-conntent.js:13
 msgid "Got theme support question or found bug or got some feedbacks? Best place to ask your query is the dedicated Support forum for the theme.."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:16
+#: admin-dashboard/src/components/json/sidebar-conntent.js:16
 msgid "Video  Tutorials"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:17
+#: admin-dashboard/src/components/json/sidebar-conntent.js:17
 msgid "Video"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/sidebar-content.js:19
+#: admin-dashboard/src/components/json/sidebar-conntent.js:19
 msgid "Watch out the videos for an easy learning on Customizing the Theme ."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:5
-msgid "DESIGN PERFECT BLOG, NEWS, OR MAGAZINE WEBSITES Elespare is a simple yet effective WordPress plugin that lets you use Elementor to create fantastic Header, Footer and Contents of websites with highly customization options for FREE. "
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:9
-msgid "You may design complicated layouts for your website in just a few minutes with our adaptable and inventive blocks."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:13
-msgid "A beautiful collection of latest posts Gutenberg blocks for WordPress, which helps you to design posts grid, posts list, full posts layout, advanced express posts design and tile layouts of your posts."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:17
-msgid "We build a beautiful series of page section Gutenberg blocks for WordPress content to help you quickly create the website you've always desired."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:21
-msgid "It has 3 different widgets for post's author, selective author by id and custom author. It also provides shortcodes for the author profile."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:25
-msgid "This free plugin offers a free live chat solution for your website visitors to contact you via live chat or a live call - all for free! Engage with your customers and increase sales."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:29
-msgid "A free WordPress Plugin which facilitates with the functionality to submit Posts from frontend with or without logging in with various configurable options."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:33
-msgid "This plugin helps you grow your Mailchimp lists and write better newsletters through various methods. You can create good looking opt-in forms or integrate with any existing form on your site, like your comment, contact or checkout form."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:39
-msgid "Get Started with Beautiful Starter Templates."
-msgstr ""
-
-#: newsphere/admin-dashboard/src/components/json/useful-plugins-content.js:40
+#: admin-dashboard/src/components/json/useful-plugins-content.js:5
 msgid "Use AF Companion to import live demo content, widgets, and settings swiftly. This plugin gives fundamental layout to build your website and accelerate the development process."
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/main.js:54
+#: admin-dashboard/src/components/json/useful-plugins-content.js:12
+msgid "You may design complicated layouts for your website in just a few minutes with our adaptable and inventive blocks."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:19
+#: admin-dashboard/src/components/json/useful-plugins-content.js:78
+#: admin-dashboard/src/components/json/useful-plugins-content.js:82
+msgid "Get ready-to-use Starter Sites instantly and build modern websites in minutes."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:26
+msgid "DESIGN PERFECT BLOG, NEWS, OR MAGAZINE WEBSITES Elespare is a simple yet effective WordPress plugin that lets you use Elementor to create fantastic Header, Footer and Contents of websites with highly customization options for FREE. "
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:34
+msgid "A beautiful collection of latest posts Gutenberg blocks for WordPress, which helps you to design posts grid, posts list, full posts layout, advanced express posts design and tile layouts of your posts."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:41
+msgid "We build a beautiful series of page section Gutenberg blocks for WordPress content to help you quickly create the website you've always desired."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:48
+msgid "It has 3 different widgets for post's author, selective author by id and custom author. It also provides shortcodes for the author profile."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:55
+msgid "This free plugin offers a free live chat solution for your website visitors to contact you via live chat or a live call - all for free! Engage with your customers and increase sales."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:62
+msgid "A free WordPress Plugin which facilitates with the functionality to submit Posts from frontend with or without logging in with various configurable options."
+msgstr ""
+
+#: admin-dashboard/src/components/json/useful-plugins-content.js:69
+msgid "This plugin helps you grow your Mailchimp lists and write better newsletters through various methods. You can create good looking opt-in forms or integrate with any existing form on your site, like your comment, contact or checkout form."
+msgstr ""
+
+#: admin-dashboard/src/components/main.js:54
 msgid "Get started"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/main.js:76
+#: admin-dashboard/src/components/main.js:62
+msgid "Useful Plugins"
+msgstr ""
+
+#: admin-dashboard/src/components/main.js:69
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin-dashboard/src/components/main.js:76
 msgid "Change Log"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/nav-content/free-pro.js:11
+#: admin-dashboard/src/components/nav-content/free-pro.js:11
 msgid "Features"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/nav-content/free-pro.js:13
+#: admin-dashboard/src/components/nav-content/free-pro.js:12
+msgid "Free"
+msgstr ""
+
+#: admin-dashboard/src/components/nav-content/free-pro.js:13
 msgid "Pro"
 msgstr ""
 
-#: newsphere/admin-dashboard/src/components/nav-content/home.js:26
+#: admin-dashboard/src/components/nav-content/home.js:26
 msgid "Go to option"
+msgstr ""
+
+#: admin-dashboard/src/components/templatespare-demo.js:17
+msgid "Update Templatespare"
+msgstr ""
+
+#: admin-dashboard/src/components/templatespare-demo.js:29
+msgid "Easy Website Building with Zero Code"
 msgstr ""
