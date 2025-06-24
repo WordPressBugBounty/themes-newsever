@@ -99,7 +99,7 @@ if (!class_exists('AF_themes_info')) {
         $this->menu_name, // Menu Title.
         'edit_posts', // Capability.
         'newsever', // Menu slug.
-        array($this, 'newsever_render_starter_sites'), // Action.
+        array($this, 'newsever_render_page'), // Action.
         $afthemes_icon,
         30
       );
@@ -107,33 +107,14 @@ if (!class_exists('AF_themes_info')) {
       // Our getting started page.
       add_submenu_page(
         'newsever', // Parent slug.
-        __('Starter Sites', 'newsever'), // Page title.
-        __('Starter Sites', 'newsever'), // Menu title.
+        __('Dashboard', 'newsever'), // Page title.
+        __('Dashboard', 'newsever'), // Menu title.
         'manage_options', // Capability.
         'newsever', // Menu slug.
-        array($this, 'newsever_render_starter_sites'), // Callback function.
-        // $starter_sites_order
+        array($this, 'newsever_render_page'), // Callback function.
+        // $get_started_order
       );
 
-      add_submenu_page(
-        'newsever', // Parent slug.
-        __('Block Patterns', 'newsever'), // Page title.
-        __('Block Patterns', 'newsever'), // Menu title.
-        'manage_options', // Capability.
-        $starter_template_slug, // Menu slug.
-        array($this, 'newsever_render_starter_templates'), // Callback function.
-        $starter_sites_order
-      );
-
-      add_submenu_page(
-        'newsever', // Parent slug.
-        __('Elementor Kits', 'newsever'), // Page title.
-        __('Elementor Kits', 'newsever'), // Menu title.
-        'manage_options', // Capability.
-        $template_kits_slug, // Menu slug.
-        array($this, 'newsever_render_templates_kits'), // Callback function.
-        $starter_sites_order
-      );
 
       // Our getting started page.
       add_submenu_page(
@@ -146,25 +127,48 @@ if (!class_exists('AF_themes_info')) {
 
       );
 
-      // Our getting started page.
-      add_submenu_page(
-        'newsever', // Parent slug.
-        __('Settings', 'newsever'), // Page title.
-        __('Settings', 'newsever'), // Menu title.
-        'manage_options', // Capability.
-        'explore-more', // Menu slug.
-        array($this, 'newsever_render_page'), // Callback function.
-        // $get_started_order
-      );
 
       // Our getting started page.
       add_submenu_page(
         'newsever', // Parent slug.
-        __('Upgrade', 'newsever'), // Page title.
-        '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'newsever') .'</span>', // Menu title.
+        __('Starter Sites', 'newsever'), // Page title.
+        __('Starter Sites', 'newsever'), // Menu title.
+        'manage_options', // Capability.
+        'starter-sites', // Menu slug.
+        array($this, 'newsever_render_starter_sites'), // Callback function.
+        // $starter_sites_order
+      );
+
+      add_submenu_page(
+        'newsever', // Parent slug.
+        __('Elementor Kits', 'newsever'), // Page title.
+        __('Elementor Kits', 'newsever'), // Menu title.
+        'manage_options', // Capability.
+        $template_kits_slug, // Menu slug.
+        array($this, 'newsever_render_templates_kits'), // Callback function.
+        // $starter_sites_order
+      );
+
+      add_submenu_page(
+        'newsever', // Parent slug.
+        __('Block Patterns', 'newsever'), // Page title.
+        __('Block Patterns', 'newsever'), // Menu title.
+        'manage_options', // Capability.
+        $starter_template_slug, // Menu slug.
+        array($this, 'newsever_render_starter_templates'), // Callback function.
+        // $starter_sites_order
+      );
+     
+
+
+      // Our getting started page.
+      add_submenu_page(
+        'newsever', // Parent slug.
+        __('Upgrade to Pro', 'newsever'), // Page title.
+        '<span id="aft-upgrade-menu-item">' . __('Upgrade Now', 'newsever') . '</span>', // Menu title.
         'manage_options', // Capability.
         esc_url('https://afthemes.com/products/newsever-pro/') // Menu slug.
-        
+
       );
     }
 

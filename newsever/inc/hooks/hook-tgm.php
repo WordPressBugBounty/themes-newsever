@@ -15,11 +15,7 @@ if ( ! function_exists( 'newsever_recommended_plugins' ) ) :
     function newsever_recommended_plugins() {
 
         $plugins = array(
-            array(
-                'name'     => esc_html__( 'AF Companion', 'newsever' ),
-                'slug'     => 'af-companion',
-                'required' => false,
-            ),
+            
             array(
                 'name'     => esc_html__( 'Templatespare', 'newsever' ),
                 'slug'     => 'templatespare',
@@ -33,16 +29,6 @@ if ( ! function_exists( 'newsever_recommended_plugins' ) ) :
             array(
                 'name'     => esc_html__( 'Blockspare', 'newsever' ),
                 'slug'     => 'blockspare',
-                'required' => false,
-            ),
-            array(
-                'name'     => esc_html__( 'Latest Posts Block', 'newsever' ),
-                'slug'     => 'latest-posts-block-lite',
-                'required' => false,
-            ),
-            array(
-                'name'     => esc_html__( 'Magic Content Box', 'newsever' ),
-                'slug'     => 'magic-content-box-lite',
                 'required' => false,
             ),
             array(
