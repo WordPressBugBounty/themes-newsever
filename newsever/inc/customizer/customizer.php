@@ -86,7 +86,7 @@ function newsever_customize_register($wp_customize) {
 
     $wp_customize->add_control('site_title_font_size',
         array(
-            'label'    => esc_html__('Site Title Size', 'newsever'),
+            'label'    => __('Site Title Size', 'newsever'),
             'section'  => 'title_tagline',
             'type'     => 'number',
             'priority' => 50,
@@ -108,7 +108,7 @@ function newsever_customize_register($wp_customize) {
 
     $wp_customize->add_control('disable_header_image_tint_overlay',
         array(
-            'label'    => esc_html__('Disable Image Tint/Overlay', 'newsever'),
+            'label'    => __('Disable Image Tint/Overlay', 'newsever'),
             'section'  => 'header_image',
             'type'     => 'checkbox',
             'priority' => 50,
@@ -127,7 +127,7 @@ function newsever_customize_register($wp_customize) {
             $wp_customize,
             'global_color_section_notice',
             array(
-                'description' => esc_html__('Background Color will not be applicable for this mode.', 'newsever'),
+                'description' => __('Background Color will not be applicable for this mode.', 'newsever'),
                 'section' => 'colors',
                 'priority' => 10,
                 'active_callback' => 'newsever_global_site_mode_dark_light_status'
@@ -146,13 +146,13 @@ function newsever_customize_register($wp_customize) {
 
     $wp_customize->add_control('global_site_mode_setting',
         array(
-            'label' => esc_html__('Site Color Mode', 'newsever'),
+            'label' => __('Site Color Mode', 'newsever'),
             'section' => 'colors',
             'type' => 'select',
             'choices' => array(
-                'aft-default-mode' => esc_html__('Default', 'newsever'),
-                'aft-dark-mode' => esc_html__('Dark', 'newsever'),
-                'aft-light-mode' => esc_html__('Light', 'newsever'),
+                'aft-default-mode' => __('Default', 'newsever'),
+                'aft-dark-mode' => __('Dark', 'newsever'),
+                'aft-light-mode' => __('Light', 'newsever'),
 
 
             ),
@@ -173,8 +173,8 @@ function newsever_customize_register($wp_customize) {
             $wp_customize,
             'theme_upsell',
             array(
-                'title'    => esc_html__( 'Newsever Pro', 'newsever' ),
-                'pro_text' => esc_html__( 'Upgrade now', 'newsever' ),
+                'title'    => __( 'Newsever Pro', 'newsever' ),
+                'pro_text' => __( 'Upgrade now', 'newsever' ),
                 'pro_url'  => 'https://www.afthemes.com/products/newsever-pro/',
                 'priority'  => 1,
             )

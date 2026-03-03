@@ -152,7 +152,7 @@ function newsever_get_default_theme_options() {
     $defaults['number_of_frontpage_latest_posts'] = 4;
 
 
-    $defaults['footer_copyright_text'] = esc_html__('Copyright &copy; All rights reserved.', 'newsever');
+    $defaults['footer_copyright_text'] = __('Copyright &copy; All rights reserved.', 'newsever');
     $defaults['hide_footer_menu_section']  = 0;
     $defaults['hide_footer_site_title_section']  = 0;
     $defaults['hide_footer_copyright_credits']  = 0;

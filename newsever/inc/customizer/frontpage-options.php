@@ -18,7 +18,7 @@ $default = newsever_get_default_theme_options();
 // Add Frontpage Options Panel.
 $wp_customize->add_panel('frontpage_option_panel',
     array(
-        'title' => esc_html__('Frontpage Options', 'newsever'),
+        'title' => __('Frontpage Options', 'newsever'),
         'priority' => 199,
         'capability' => 'edit_theme_options',
     )
@@ -28,7 +28,7 @@ $wp_customize->add_panel('frontpage_option_panel',
 // Advertisement Section.
 $wp_customize->add_section('frontpage_advertisement_settings',
     array(
-        'title' => esc_html__('Banner Advertisement', 'newsever'),
+        'title' => __('Banner Advertisement', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'frontpage_option_panel',
@@ -49,8 +49,8 @@ $wp_customize->add_setting('banner_advertisement_section',
 $wp_customize->add_control(
     new WP_Customize_Cropped_Image_Control($wp_customize, 'banner_advertisement_section',
         array(
-            'label' => esc_html__('Banner Section Advertisement', 'newsever'),
-            'description' => sprintf(esc_html__('Recommended Size %1$s px X %2$s px', 'newsever'), 930, 100),
+            'label' => __('Banner Section Advertisement', 'newsever'),
+            'description' => sprintf(__('Recommended Size %1$s px X %2$s px', 'newsever'), 930, 100),
             'section' => 'frontpage_advertisement_settings',
             'width' => 930,
             'height' => 100,
@@ -71,7 +71,7 @@ $wp_customize->add_setting('banner_advertisement_section_url',
 );
 $wp_customize->add_control('banner_advertisement_section_url',
     array(
-        'label' => esc_html__('URL Link', 'newsever'),
+        'label' => __('URL Link', 'newsever'),
         'section' => 'frontpage_advertisement_settings',
         'type' => 'text',
         'priority' => 130,
@@ -84,7 +84,7 @@ $wp_customize->add_control('banner_advertisement_section_url',
 //=================================
 $wp_customize->add_section('newsever_flash_posts_section_settings',
     array(
-        'title' => esc_html__('Exclusive Posts', 'newsever'),
+        'title' => __('Exclusive Posts', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'frontpage_option_panel',
@@ -101,7 +101,7 @@ $wp_customize->add_setting('show_flash_news_section',
 
 $wp_customize->add_control('show_flash_news_section',
     array(
-        'label' => esc_html__('Enable Exclusive Posts Section', 'newsever'),
+        'label' => __('Enable Exclusive Posts Section', 'newsever'),
         'section' => 'newsever_flash_posts_section_settings',
         'type' => 'checkbox',
         'priority' => 22,
@@ -120,7 +120,7 @@ $wp_customize->add_setting('flash_news_title',
 
 $wp_customize->add_control('flash_news_title',
     array(
-        'label' => esc_html__('Exclusive News Title', 'newsever'),
+        'label' => __('Exclusive News Title', 'newsever'),
         'section' => 'newsever_flash_posts_section_settings',
         'type' => 'text',
         'priority' => 23,
@@ -140,7 +140,7 @@ $wp_customize->add_setting('flash_news_subtitle',
 
 $wp_customize->add_control('flash_news_subtitle',
     array(
-        'label' => esc_html__('Exclusive News Subtitle', 'newsever'),
+        'label' => __('Exclusive News Subtitle', 'newsever'),
         'section' => 'newsever_flash_posts_section_settings',
         'type' => 'text',
         'priority' => 23,
@@ -161,8 +161,8 @@ $wp_customize->add_setting('select_flash_news_category',
 
 $wp_customize->add_control(new Newsever_Dropdown_Taxonomies_Control($wp_customize, 'select_flash_news_category',
     array(
-        'label' => esc_html__('Exclusive Posts Category', 'newsever'),
-        'description' => esc_html__('Posts to be shown on trending posts ', 'newsever'),
+        'label' => __('Exclusive Posts Category', 'newsever'),
+        'description' => __('Posts to be shown on trending posts ', 'newsever'),
         'section' => 'newsever_flash_posts_section_settings',
         'type' => 'dropdown-taxonomies',
         'taxonomy' => 'category',
@@ -178,7 +178,7 @@ $wp_customize->add_control(new Newsever_Dropdown_Taxonomies_Control($wp_customiz
 // Main banner Sider Section.
 $wp_customize->add_section('frontpage_main_banner_section_settings',
     array(
-        'title' => esc_html__('Main Banner Section', 'newsever'),
+        'title' => __('Main Banner Section', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'frontpage_option_panel',
@@ -196,7 +196,7 @@ $wp_customize->add_setting('show_main_news_section',
 
 $wp_customize->add_control('show_main_news_section',
     array(
-        'label' => esc_html__('Enable Main Banner Section', 'newsever'),
+        'label' => __('Enable Main Banner Section', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'checkbox',
         'priority' => 100,
@@ -217,7 +217,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_banner_section_title',
         array(
-            'label' => esc_html__('Main Slider Section ', 'newsever'),
+            'label' => __('Main Slider Section ', 'newsever'),
             'section' => 'frontpage_main_banner_section_settings',
             'priority' => 100,
             'active_callback' => 'newsever_main_banner_section_status'
@@ -239,7 +239,7 @@ $wp_customize->add_setting('main_banner_section_label',
 );
 $wp_customize->add_control('main_banner_section_label',
     array(
-        'label' => esc_html__('Section Title', 'newsever'),
+        'label' => __('Section Title', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'text',
         'priority' => 100,
@@ -258,8 +258,8 @@ $wp_customize->add_setting('select_slider_news_category',
 
 $wp_customize->add_control(new Newsever_Dropdown_Taxonomies_Control($wp_customize, 'select_slider_news_category',
     array(
-        'label' => esc_html__('Category', 'newsever'),
-        'description' => esc_html__('Posts to be shown on Main News Slider', 'newsever'),
+        'label' => __('Category', 'newsever'),
+        'description' => __('Posts to be shown on Main News Slider', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'dropdown-taxonomies',
         'taxonomy' => 'category',
@@ -282,7 +282,7 @@ $wp_customize->add_control(
         $wp_customize,
         'editorials_section_title',
         array(
-            'label' => esc_html__('Editorials Section ', 'newsever'),
+            'label' => __('Editorials Section ', 'newsever'),
             'section' => 'frontpage_main_banner_section_settings',
             'priority' => 100,
             'active_callback' => 'newsever_main_banner_section_status'
@@ -301,7 +301,7 @@ $wp_customize->add_setting('editors_pick_section_title',
 );
 $wp_customize->add_control('editors_pick_section_title',
     array(
-        'label' => esc_html__('Section Title', 'newsever'),
+        'label' => __('Section Title', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'text',
         'priority' => 100,
@@ -320,8 +320,8 @@ $wp_customize->add_setting('select_editors_pick_category',
 
 $wp_customize->add_control(new Newsever_Dropdown_Taxonomies_Control($wp_customize, 'select_editors_pick_category',
     array(
-        'label' => esc_html__('Category', 'newsever'),
-        'description' => esc_html__('Posts to be shown on Editorials slider section', 'newsever'),
+        'label' => __('Category', 'newsever'),
+        'description' => __('Posts to be shown on Editorials slider section', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'dropdown-taxonomies',
         'taxonomy' => 'category',
@@ -348,7 +348,7 @@ $wp_customize->add_control(
         $wp_customize,
         'trending_carousel_section_title',
         array(
-            'label' => esc_html__('Trending Section ', 'newsever'),
+            'label' => __('Trending Section ', 'newsever'),
             'section' => 'frontpage_main_banner_section_settings',
             'priority' => 100,
             'active_callback' => 'newsever_main_banner_section_status'
@@ -367,7 +367,7 @@ $wp_customize->add_setting('trending_slider_title',
 );
 $wp_customize->add_control('trending_slider_title',
     array(
-        'label' => esc_html__('Section Title', 'newsever'),
+        'label' => __('Section Title', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'text',
         'priority' => 100,
@@ -387,12 +387,12 @@ $wp_customize->add_setting('select_trending_carousel_section_mode',
 
 $wp_customize->add_control('select_trending_carousel_section_mode',
     array(
-        'label' => esc_html__('Select Trending Carousel Position', 'newsever'),
+        'label' => __('Select Trending Carousel Position', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'select',
         'choices' => array(
-            'left' => esc_html__("Left", 'newsever'),
-            'right' => esc_html__("Right", 'newsever'),
+            'left' => __("Left", 'newsever'),
+            'right' => __("Right", 'newsever'),
 
         ),
         'priority' => 100,
@@ -417,8 +417,8 @@ $wp_customize->add_setting('select_trending_carousel_category',
 
 $wp_customize->add_control(new Newsever_Dropdown_Taxonomies_Control($wp_customize, 'select_trending_carousel_category',
     array(
-        'label' => esc_html__('Category', 'newsever'),
-        'description' => esc_html__('Posts to be shown on Trending slider section', 'newsever'),
+        'label' => __('Category', 'newsever'),
+        'description' => __('Posts to be shown on Trending slider section', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'dropdown-taxonomies',
         'taxonomy' => 'category',
@@ -446,7 +446,7 @@ $wp_customize->add_setting('disable_main_banner_on_blog_archive',
 
 $wp_customize->add_control('disable_main_banner_on_blog_archive',
     array(
-        'label' => esc_html__('Disable Main Banner section on Static Posts page', 'newsever'),
+        'label' => __('Disable Main Banner section on Static Posts page', 'newsever'),
         'section' => 'frontpage_main_banner_section_settings',
         'type' => 'checkbox',
         'priority' => 100,
@@ -458,7 +458,7 @@ $wp_customize->add_control('disable_main_banner_on_blog_archive',
 // Frontpage Layout Section.
 $wp_customize->add_section('frontpage_layout_settings',
     array(
-        'title' => esc_html__('Frontpage Layout Settings', 'newsever'),
+        'title' => __('Frontpage Layout Settings', 'newsever'),
         'priority' => 10,
         'capability' => 'edit_theme_options',
         'panel' => 'frontpage_option_panel',
@@ -478,14 +478,14 @@ $wp_customize->add_setting('frontpage_content_alignment',
 
 $wp_customize->add_control('frontpage_content_alignment',
     array(
-        'label' => esc_html__('Frontpage Content alignment', 'newsever'),
-        'description' => esc_html__('Select frontpage content alignment', 'newsever'),
+        'label' => __('Frontpage Content alignment', 'newsever'),
+        'description' => __('Select frontpage content alignment', 'newsever'),
         'section' => 'frontpage_layout_settings',
         'type' => 'select',
         'choices' => array(
-            'frontpage-layout-1' => esc_html__('Default - Frontpage Layout 1 ', 'newsever'),
-            'frontpage-layout-2' => esc_html__('Frontpage Layout 2', 'newsever'),
-            'frontpage-layout-3' => esc_html__('Frontpage Layout 3', 'newsever')
+            'frontpage-layout-1' => __('Default - Frontpage Layout 1 ', 'newsever'),
+            'frontpage-layout-2' => __('Frontpage Layout 2', 'newsever'),
+            'frontpage-layout-3' => __('Frontpage Layout 3', 'newsever')
         ),
         'priority' => 10,
     ));
@@ -501,7 +501,7 @@ $wp_customize->add_setting('frontpage_sticky_sidebar',
 
 $wp_customize->add_control('frontpage_sticky_sidebar',
     array(
-        'label' => esc_html__('Make Frontpage Sidebar Sticky', 'newsever'),
+        'label' => __('Make Frontpage Sidebar Sticky', 'newsever'),
         'section' => 'frontpage_layout_settings',
         'type' => 'checkbox',
         'priority' => 10,

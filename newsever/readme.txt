@@ -3,7 +3,7 @@
 Contributors: afthemes
 Requires PHP: 5.0
 Tested up to: 6.9
-Stable tag: 4.3.7
+Stable tag: 4.3.10
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
@@ -18,7 +18,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Newsever is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-Newsever WordPress Theme, Copyright 2020 AF themes
+Newsever WordPress Theme, Copyright 2026 AF themes
 Newsever is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
@@ -37,7 +37,8 @@ Description: Newsever is an ideal WordPress theme for Best Responsive News and M
 Newsever includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
-= 4.3.7 - Dec 30 2025 = 
+= 4.3.9 - Mar 03 2026 =
+* Update - Customizer optimization
 * Update - German language file
 * Update - Arabic language file
 * Update - French language file
@@ -49,7 +50,7 @@ Newsever includes support for Infinite Scroll in Jetpack.
 * Update - Dutch language file
 * Update - Russian language file
 * Update - Ukranian language file
-* Update - Swedish language file
+* Update - Swedish language file 
 
 = 4.3.2 - Jun 24 2025 =
 * Update - Default admin panel

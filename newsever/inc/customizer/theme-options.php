@@ -13,7 +13,7 @@ require get_template_directory() . '/inc/customizer/frontpage-options.php';
 // Add Theme Options Panel.
 $wp_customize->add_panel('theme_option_panel',
     array(
-        'title' => esc_html__('Theme Options', 'newsever'),
+        'title' => __('Theme Options', 'newsever'),
         'priority' => 200,
         'capability' => 'edit_theme_options',
     )
@@ -23,7 +23,7 @@ $wp_customize->add_panel('theme_option_panel',
 // Preloader Section.
 $wp_customize->add_section('site_preloader_settings',
     array(
-        'title' => esc_html__('Preloader Options', 'newsever'),
+        'title' => __('Preloader Options', 'newsever'),
         'priority' => 4,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -41,7 +41,7 @@ $wp_customize->add_setting('enable_site_preloader',
 
 $wp_customize->add_control('enable_site_preloader',
     array(
-        'label' => esc_html__('Enable preloader', 'newsever'),
+        'label' => __('Enable preloader', 'newsever'),
         'section' => 'site_preloader_settings',
         'type' => 'checkbox',
         'priority' => 10,
@@ -58,7 +58,7 @@ $wp_customize->add_control('enable_site_preloader',
 // Layout Section.
     $wp_customize->add_section('site_layout_settings',
         array(
-            'title' => esc_html__('Global Settings', 'newsever'),
+            'title' => __('Global Settings', 'newsever'),
             'priority' => 9,
             'capability' => 'edit_theme_options',
             'panel' => 'theme_option_panel',
@@ -77,13 +77,13 @@ $wp_customize->add_control('enable_site_preloader',
     
     $wp_customize->add_control('global_content_alignment',
         array(
-            'label' => esc_html__('Global Content Alignment', 'newsever'),
+            'label' => __('Global Content Alignment', 'newsever'),
             'section' => 'site_layout_settings',
             'type' => 'select',
             'choices' => array(
-                'align-content-left' => esc_html__('Content - Primary sidebar', 'newsever'),
-                'align-content-right' => esc_html__('Primary sidebar - Content', 'newsever'),
-                'full-width-content' => esc_html__('Full width content', 'newsever')
+                'align-content-left' => __('Content - Primary sidebar', 'newsever'),
+                'align-content-right' => __('Primary sidebar - Content', 'newsever'),
+                'full-width-content' => __('Full width content', 'newsever')
             ),
             'priority' => 130,
         ));
@@ -99,12 +99,12 @@ $wp_customize->add_control('enable_site_preloader',
     
     $wp_customize->add_control('global_show_categories',
         array(
-            'label' => esc_html__('Post Categories', 'newsever'),
+            'label' => __('Post Categories', 'newsever'),
             'section' => 'site_layout_settings',
             'type' => 'select',
             'choices' => array(
-                'yes' => esc_html__('Show', 'newsever'),
-                'no' => esc_html__('Hide', 'newsever'),
+                'yes' => __('Show', 'newsever'),
+                'no' => __('Hide', 'newsever'),
             
             ),
             'priority' => 130,
@@ -122,12 +122,12 @@ $wp_customize->add_control('enable_site_preloader',
     
     $wp_customize->add_control('global_widget_excerpt_setting',
         array(
-            'label' => esc_html__('Excerpt Mode', 'newsever'),
+            'label' => __('Excerpt Mode', 'newsever'),
             'section' => 'site_layout_settings',
             'type' => 'select',
             'choices' => array(
-                'trimmed-content' => esc_html__('Trimmed Content', 'newsever'),
-                'default-excerpt' => esc_html__('Default Excerpt', 'newsever'),
+                'trimmed-content' => __('Trimmed Content', 'newsever'),
+                'default-excerpt' => __('Default Excerpt', 'newsever'),
             
             ),
             'priority' => 130,
@@ -138,7 +138,7 @@ $wp_customize->add_control('enable_site_preloader',
 // Breadcrumb Section.
 $wp_customize->add_section('site_breadcrumb_settings',
     array(
-        'title'      => esc_html__('Breadcrumb Options', 'newsever'),
+        'title'      => __('Breadcrumb Options', 'newsever'),
         'priority'   => 50,
         'capability' => 'edit_theme_options',
         'panel'      => 'theme_option_panel',
@@ -156,7 +156,7 @@ $wp_customize->add_setting('enable_breadcrumb',
 
 $wp_customize->add_control('enable_breadcrumb',
     array(
-        'label'    => esc_html__('Show breadcrumbs', 'newsever'),
+        'label'    => __('Show breadcrumbs', 'newsever'),
         'section'  => 'site_breadcrumb_settings',
         'type'     => 'checkbox',
         'priority' => 10,
@@ -175,15 +175,15 @@ $wp_customize->add_setting('select_breadcrumb_mode',
 
 $wp_customize->add_control( 'select_breadcrumb_mode',
     array(
-        'label'       => esc_html__('Select Breadcrumbs', 'newsever'),
-        'description' => esc_html__("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'newsever'),
+        'label'       => __('Select Breadcrumbs', 'newsever'),
+        'description' => __("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'newsever'),
         'section'     => 'site_breadcrumb_settings',
         'type'        => 'select',
         'choices'               => array(
-            'default' => esc_html__( 'Default', 'newsever' ),
-            'yoast' => esc_html__( 'Yoast SEO', 'newsever' ),
-            'rankmath' => esc_html__( 'Rank Math', 'newsever' ),
-            'bcn' => esc_html__( 'NavXT', 'newsever' ),
+            'default' => __( 'Default', 'newsever' ),
+            'yoast' => __( 'Yoast SEO', 'newsever' ),
+            'rankmath' => __( 'Rank Math', 'newsever' ),
+            'bcn' => __( 'NavXT', 'newsever' ),
         ),
         'priority'    => 100,
     ));
@@ -199,7 +199,7 @@ $wp_customize->add_control( 'select_breadcrumb_mode',
 // Frontpage Section.
     $wp_customize->add_section('header_options_settings',
         array(
-            'title' => esc_html__('Header Options', 'newsever'),
+            'title' => __('Header Options', 'newsever'),
             'priority' => 49,
             'capability' => 'edit_theme_options',
             'panel' => 'theme_option_panel',
@@ -219,7 +219,7 @@ $wp_customize->add_control( 'select_breadcrumb_mode',
     );
     $wp_customize->add_control('enable_sticky_header_option',
         array(
-            'label' => esc_html__('Enable Sticky Header', 'newsever'),
+            'label' => __('Enable Sticky Header', 'newsever'),
             'section' => 'header_options_settings',
             'type' => 'checkbox',
             'priority' => 11
@@ -237,12 +237,12 @@ $wp_customize->add_setting('global_show_home_menu',
 
 $wp_customize->add_control('global_show_home_menu',
     array(
-        'label' => esc_html__('Home Menu Icon', 'newsever'),
+        'label' => __('Home Menu Icon', 'newsever'),
         'section' => 'header_options_settings',
         'type' => 'select',
         'choices' => array(
-            'yes' => esc_html__('Show', 'newsever'),
-            'no' => esc_html__('Hide', 'newsever'),
+            'yes' => __('Show', 'newsever'),
+            'no' => __('Hide', 'newsever'),
 
         ),
         'priority' => 11,
@@ -268,7 +268,7 @@ $wp_customize->add_control(
         $wp_customize,
         'custom_link_section_title',
         array(
-            'label' => esc_html__('Custom Link Section ', 'newsever'),
+            'label' => __('Custom Link Section ', 'newsever'),
             'section' => 'header_options_settings',
             'priority' => 100,
 
@@ -287,7 +287,7 @@ $wp_customize->add_setting('show_watch_online_section',
 
 $wp_customize->add_control('show_watch_online_section',
     array(
-        'label' => esc_html__('Enable Watch Online Section', 'newsever'),
+        'label' => __('Enable Watch Online Section', 'newsever'),
         'section' => 'header_options_settings',
         'type' => 'checkbox',
         'priority' => 100,
@@ -305,7 +305,7 @@ $wp_customize->add_setting('aft_custom_title',
 );
 $wp_customize->add_control('aft_custom_title',
     array(
-        'label' => esc_html__('Title', 'newsever'),
+        'label' => __('Title', 'newsever'),
         'section' => 'header_options_settings',
         'type' => 'text',
         'priority' => 130,
@@ -323,7 +323,7 @@ $wp_customize->add_setting('aft_custom_link',
 );
 $wp_customize->add_control('aft_custom_link',
     array(
-        'label' => esc_html__('Button Link', 'newsever'),
+        'label' => __('Button Link', 'newsever'),
         'section' => 'header_options_settings',
         'type' => 'text',
         'priority' => 130,
@@ -342,7 +342,7 @@ $wp_customize->add_control('aft_custom_link',
 // Global Section.
 $wp_customize->add_section('site_comment_count_settings',
     array(
-        'title' => esc_html__('Comment Count', 'newsever'),
+        'title' => __('Comment Count', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -360,12 +360,12 @@ $wp_customize->add_setting('global_show_comment_count',
 
 $wp_customize->add_control('global_show_comment_count',
     array(
-        'label' => esc_html__('Comment Count', 'newsever'),
+        'label' => __('Comment Count', 'newsever'),
         'section' => 'site_comment_count_settings',
         'type' => 'select',
         'choices' => array(
-            'yes' => esc_html__('Show', 'newsever'),
-            'no' => esc_html__('Hide', 'newsever'),
+            'yes' => __('Show', 'newsever'),
+            'no' => __('Hide', 'newsever'),
 
         ),
         'priority' => 130,
@@ -378,7 +378,7 @@ $wp_customize->add_control('global_show_comment_count',
 // Global Section.
 $wp_customize->add_section('site_min_read_settings',
     array(
-        'title' => esc_html__('Minutes Read Count', 'newsever'),
+        'title' => __('Minutes Read Count', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -397,12 +397,12 @@ $wp_customize->add_setting('global_show_min_read',
 
 $wp_customize->add_control('global_show_min_read',
     array(
-        'label' => esc_html__('Minutes Read Count', 'newsever'),
+        'label' => __('Minutes Read Count', 'newsever'),
         'section' => 'site_min_read_settings',
         'type' => 'select',
         'choices' => array(
-            'yes' => esc_html__('Show', 'newsever'),
-            'no' => esc_html__('Hide', 'newsever'),
+            'yes' => __('Show', 'newsever'),
+            'no' => __('Hide', 'newsever'),
 
         ),
         'priority' => 130,
@@ -413,7 +413,7 @@ $wp_customize->add_control('global_show_min_read',
 // Global Section.
 $wp_customize->add_section('site_post_date_author_settings',
     array(
-        'title' => esc_html__('Date and Author', 'newsever'),
+        'title' => __('Date and Author', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -432,12 +432,12 @@ $wp_customize->add_setting('global_post_date_author_setting',
 
 $wp_customize->add_control('global_post_date_author_setting',
     array(
-        'label' => esc_html__('Date and Author', 'newsever'),
+        'label' => __('Date and Author', 'newsever'),
         'section' => 'site_post_date_author_settings',
         'type' => 'select',
         'choices' => array(
-            'show-date-author' => esc_html__('Show Date and Author', 'newsever'),
-            'hide-date-author' => esc_html__('Hide All', 'newsever'),
+            'show-date-author' => __('Show Date and Author', 'newsever'),
+            'hide-date-author' => __('Hide All', 'newsever'),
         ),
         'priority' => 130,
     ));
@@ -449,7 +449,7 @@ $wp_customize->add_control('global_post_date_author_setting',
 // Single Section.
 $wp_customize->add_section('site_single_posts_settings',
     array(
-        'title' => esc_html__('Single Post', 'newsever'),
+        'title' => __('Single Post', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -480,7 +480,7 @@ $wp_customize->add_control('single_show_featured_image',
 // Single Section.
 $wp_customize->add_section('site_single_related_posts_settings',
     array(
-        'title' => esc_html__('Related Posts', 'newsever'),
+        'title' => __('Related Posts', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -517,7 +517,7 @@ $wp_customize->add_control('single_related_posts_title',
 // Archive Section.
 $wp_customize->add_section('site_archive_settings',
     array(
-        'title' => esc_html__('Archive Settings', 'newsever'),
+        'title' => __('Archive Settings', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -537,14 +537,14 @@ $wp_customize->add_setting('archive_image_alignment_list',
 
 $wp_customize->add_control('archive_image_alignment_list',
     array(
-        'label' => esc_html__('Image alignment', 'newsever'),
-        'description' => esc_html__('Select image alignment for archive', 'newsever'),
+        'label' => __('Image alignment', 'newsever'),
+        'description' => __('Select image alignment for archive', 'newsever'),
         'section' => 'site_archive_settings',
         'type' => 'select',
         'choices' => array(
-            'archive-image-left' => esc_html__('Left', 'newsever'),
-            'archive-image-right' => esc_html__('Right', 'newsever'),
-            'archive-image-alternate' => esc_html__('Alternate', 'newsever'),
+            'archive-image-left' => __('Left', 'newsever'),
+            'archive-image-right' => __('Right', 'newsever'),
+            'archive-image-alternate' => __('Alternate', 'newsever'),
         ),
         'priority' => 130,
         //'active_callback' => 'newsever_archive_image_status'
@@ -556,7 +556,7 @@ $wp_customize->add_control('archive_image_alignment_list',
 // Footer Section.
 $wp_customize->add_section('frontpage_latest_posts_settings',
     array(
-        'title' => esc_html__('You May Have Missed', 'newsever'),
+        'title' => __('You May Have Missed', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -575,7 +575,7 @@ $wp_customize->add_setting('frontpage_latest_posts_section_title',
 );
 $wp_customize->add_control('frontpage_latest_posts_section_title',
     array(
-        'label' => esc_html__('Posts Section Title', 'newsever'),
+        'label' => __('Posts Section Title', 'newsever'),
         'section' => 'frontpage_latest_posts_settings',
         'type' => 'text',
         'priority' => 100,
@@ -591,7 +591,7 @@ $wp_customize->add_control('frontpage_latest_posts_section_title',
 // Footer Section.
 $wp_customize->add_section('site_footer_settings',
     array(
-        'title' => esc_html__('Footer', 'newsever'),
+        'title' => __('Footer', 'newsever'),
         'priority' => 50,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
