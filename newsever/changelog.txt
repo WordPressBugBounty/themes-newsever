@@ -1,4 +1,4 @@
-### 4.3.10 - Mar 03 2026
+### 4.3.9 - Mar 03 2026
 * Update - Customizer optimization
 * Update - German language file
 * Update - Arabic language file
