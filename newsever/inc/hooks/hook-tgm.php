@@ -40,7 +40,17 @@ if ( ! function_exists( 'newsever_recommended_plugins' ) ) :
                 'name'     => esc_html__( 'Free Live Chat using 3CX', 'newsever' ),
                 'slug'     => 'wp-live-chat-support',
                 'required' => false,
-            )
+            ),
+            array(
+                'name'     => esc_html__( 'AF Translate', 'newsever' ),
+                'slug'     => 'af-translate',
+                'required' => false,
+            ),
+            array(
+                'name'     => esc_html__( 'AF Companion', 'newsever' ),
+                'slug'     => 'af-companion',
+                'required' => false,
+            ) 
         );
 
         tgmpa( $plugins );
